@@ -6,16 +6,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
-    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <style> #map_e7a9bfa709614d8baca5e5571f262747 {
+            <style> #map_8cd2712d8fb8471cb3b691854a385d61 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -27,7 +27,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_e7a9bfa709614d8baca5e5571f262747" ></div>
+            <div class="folium-map" id="map_8cd2712d8fb8471cb3b691854a385d61" ></div>
         
 </body>
 <script>    
@@ -37,8 +37,8 @@
                 var bounds = null;
             
 
-            var map_e7a9bfa709614d8baca5e5571f262747 = L.map(
-                                  'map_e7a9bfa709614d8baca5e5571f262747',
+            var map_8cd2712d8fb8471cb3b691854a385d61 = L.map(
+                                  'map_8cd2712d8fb8471cb3b691854a385d61',
                                   {center: [0,0],
                                   zoom: 1,
                                   maxBounds: bounds,
@@ -49,7 +49,7 @@
             
         
     
-            var tile_layer_7f0ae08be63f448785a518bb5759a051 = L.tileLayer(
+            var tile_layer_5affda2945a64248990cea91aba28d6e = L.tileLayer(
                 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
                 {
   "attribution": null,
@@ -59,12 +59,12 @@
   "noWrap": false,
   "subdomains": "abc"
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
         
     
 
-            var circle_7a0211ea8c3243478ee988db6efb5b20 = L.circle(
-                [40.817721,-73.95245899999999],
+            var circle_5f39720f929e412aa9fee2e5e39fc3c9 = L.circle(
+                [40.785868,-73.940587],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -81,24 +81,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_ce225b3f9ba2455f9bb06db7b23b0df6 = L.popup({maxWidth: '300'});
+            var popup_3585ddcef04846d8b1872be295090046 = L.popup({maxWidth: '300'});
 
             
-                var html_7ee4e1d91e8446528ba97ab5e6096dbb = $('<div id="html_7ee4e1d91e8446528ba97ab5e6096dbb" style="width: 100.0%; height: 100.0%;">P.S. 161 PEDRO ALBIZU CAMPOS</div>')[0];
-                popup_ce225b3f9ba2455f9bb06db7b23b0df6.setContent(html_7ee4e1d91e8446528ba97ab5e6096dbb);
+                var html_137d13ebd3544c46934b4445bad162dc = $('<div id="html_137d13ebd3544c46934b4445bad162dc" style="width: 100.0%; height: 100.0%;">P.S. 050 VITO MARCANTONIO</div>')[0];
+                popup_3585ddcef04846d8b1872be295090046.setContent(html_137d13ebd3544c46934b4445bad162dc);
             
 
-            circle_7a0211ea8c3243478ee988db6efb5b20.bindPopup(popup_ce225b3f9ba2455f9bb06db7b23b0df6);
+            circle_5f39720f929e412aa9fee2e5e39fc3c9.bindPopup(popup_3585ddcef04846d8b1872be295090046);
 
             
         
     
 
-            var circle_a54828dd9ee24002aac548cb3999d735 = L.circle(
-                [40.865914000000004,-73.925157],
+            var circle_7b7dff0b8c514f08b145cb49faa1724f = L.circle(
+                [40.831496,-73.936154],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -115,24 +115,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_10e9a5965a8d4361af59071e74f3d437 = L.popup({maxWidth: '300'});
+            var popup_f3a6d85d74d44f4f912babb0f35f3ea3 = L.popup({maxWidth: '300'});
 
             
-                var html_7fdff24a8d3d4de8b18716215949144a = $('<div id="html_7fdff24a8d3d4de8b18716215949144a" style="width: 100.0%; height: 100.0%;">J.H.S. 052 INWOOD</div>')[0];
-                popup_10e9a5965a8d4361af59071e74f3d437.setContent(html_7fdff24a8d3d4de8b18716215949144a);
+                var html_45a00982b30c4ec39478db3ab8506228 = $('<div id="html_45a00982b30c4ec39478db3ab8506228" style="width: 100.0%; height: 100.0%;">P.S. 046 ARTHUR TAPPAN</div>')[0];
+                popup_f3a6d85d74d44f4f912babb0f35f3ea3.setContent(html_45a00982b30c4ec39478db3ab8506228);
             
 
-            circle_a54828dd9ee24002aac548cb3999d735.bindPopup(popup_10e9a5965a8d4361af59071e74f3d437);
+            circle_7b7dff0b8c514f08b145cb49faa1724f.bindPopup(popup_f3a6d85d74d44f4f912babb0f35f3ea3);
 
             
         
     
 
-            var circle_e2d8bbdae0974e8497733bb8a2e8a598 = L.circle(
-                [40.849099,-73.931106],
+            var circle_a7555a3a25e84940ade6a1e10fef5107 = L.circle(
+                [40.813613000000004,-73.908429],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -149,24 +149,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_7080324153644b18b5bd29d3966482e2 = L.popup({maxWidth: '300'});
+            var popup_426f02282ce64f328c30db9f7cf04291 = L.popup({maxWidth: '300'});
 
             
-                var html_8da5e14de1ff40ee98551eb2960daa86 = $('<div id="html_8da5e14de1ff40ee98551eb2960daa86" style="width: 100.0%; height: 100.0%;">J.H.S. 143 ELEANOR ROOSEVELT</div>')[0];
-                popup_7080324153644b18b5bd29d3966482e2.setContent(html_8da5e14de1ff40ee98551eb2960daa86);
+                var html_a175c922707e44c8868930c351f64b16 = $('<div id="html_a175c922707e44c8868930c351f64b16" style="width: 100.0%; height: 100.0%;">P.S. 5 PORT MORRIS</div>')[0];
+                popup_426f02282ce64f328c30db9f7cf04291.setContent(html_a175c922707e44c8868930c351f64b16);
             
 
-            circle_e2d8bbdae0974e8497733bb8a2e8a598.bindPopup(popup_7080324153644b18b5bd29d3966482e2);
+            circle_a7555a3a25e84940ade6a1e10fef5107.bindPopup(popup_426f02282ce64f328c30db9f7cf04291);
 
             
         
     
 
-            var circle_cb29827ff9974865a9071c886c6a46a4 = L.circle(
-                [40.839408,-73.935772],
+            var circle_0c0cbdc1e3ab44eda64c9853eee1d6bd = L.circle(
+                [40.841242,-73.898492],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -183,24 +183,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_5cab85f500dc4123a07f9e1abf02778a = L.popup({maxWidth: '300'});
+            var popup_b11a9aa591004dd39da3addb0adbcb48 = L.popup({maxWidth: '300'});
 
             
-                var html_ea7208b985c044ef844d9480818872bb = $('<div id="html_ea7208b985c044ef844d9480818872bb" style="width: 100.0%; height: 100.0%;">M.S. 319 - MARIA TERESA</div>')[0];
-                popup_5cab85f500dc4123a07f9e1abf02778a.setContent(html_ea7208b985c044ef844d9480818872bb);
+                var html_d185371d1fed4f11b49f5efe2d98ef31 = $('<div id="html_d185371d1fed4f11b49f5efe2d98ef31" style="width: 100.0%; height: 100.0%;">P.S./M.S. 004 CROTONA PARK WEST</div>')[0];
+                popup_b11a9aa591004dd39da3addb0adbcb48.setContent(html_d185371d1fed4f11b49f5efe2d98ef31);
             
 
-            circle_cb29827ff9974865a9071c886c6a46a4.bindPopup(popup_5cab85f500dc4123a07f9e1abf02778a);
+            circle_0c0cbdc1e3ab44eda64c9853eee1d6bd.bindPopup(popup_b11a9aa591004dd39da3addb0adbcb48);
 
             
         
     
 
-            var circle_275c8db619974f1baf72a7684aa1b1ed = L.circle(
-                [40.860820000000004,-73.930066],
+            var circle_5d079fd1e9534d4ab03140086620a7d7 = L.circle(
+                [40.850163,-73.89165600000001],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -217,24 +217,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_d3c5d6a65ca24253b47de5a234840f37 = L.popup({maxWidth: '300'});
+            var popup_f567fca826c6452b94709238a9b7ef24 = L.popup({maxWidth: '300'});
 
             
-                var html_4fa21ea9fa4b48d89f014151d387ce13 = $('<div id="html_4fa21ea9fa4b48d89f014151d387ce13" style="width: 100.0%; height: 100.0%;">MIDDLE SCHOOL 322</div>')[0];
-                popup_d3c5d6a65ca24253b47de5a234840f37.setContent(html_4fa21ea9fa4b48d89f014151d387ce13);
+                var html_5f8a0ae1ad284ceabac3321c4f04fbf6 = $('<div id="html_5f8a0ae1ad284ceabac3321c4f04fbf6" style="width: 100.0%; height: 100.0%;">P.S. 3 RAUL JULIA MICRO SOCIETY</div>')[0];
+                popup_f567fca826c6452b94709238a9b7ef24.setContent(html_5f8a0ae1ad284ceabac3321c4f04fbf6);
             
 
-            circle_275c8db619974f1baf72a7684aa1b1ed.bindPopup(popup_d3c5d6a65ca24253b47de5a234840f37);
+            circle_5d079fd1e9534d4ab03140086620a7d7.bindPopup(popup_f567fca826c6452b94709238a9b7ef24);
 
             
         
     
 
-            var circle_c9d135f026a44cd5bb540190395f39cf = L.circle(
-                [40.839408,-73.935772],
+            var circle_744e55715a9842e4874a0b736e9ae5b7 = L.circle(
+                [40.859165000000004,-73.909733],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -251,24 +251,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_f165c9de7c4e4b5084b84a204d5bfea3 = L.popup({maxWidth: '300'});
+            var popup_98e5ca7ae1544285923a0351e3e49e74 = L.popup({maxWidth: '300'});
 
             
-                var html_b6b83535c17544d0a68e559725fbfbb2 = $('<div id="html_b6b83535c17544d0a68e559725fbfbb2" style="width: 100.0%; height: 100.0%;">M.S. 324 - PATRIA MIRABAL</div>')[0];
-                popup_f165c9de7c4e4b5084b84a204d5bfea3.setContent(html_b6b83535c17544d0a68e559725fbfbb2);
+                var html_b055f11c6f1945a1b0d1acfff7d72dc0 = $('<div id="html_b055f11c6f1945a1b0d1acfff7d72dc0" style="width: 100.0%; height: 100.0%;">P.S. X015 INSTITUTE FOR ENVIRONMENTAL LEARNING</div>')[0];
+                popup_98e5ca7ae1544285923a0351e3e49e74.setContent(html_b055f11c6f1945a1b0d1acfff7d72dc0);
             
 
-            circle_c9d135f026a44cd5bb540190395f39cf.bindPopup(popup_f165c9de7c4e4b5084b84a204d5bfea3);
+            circle_744e55715a9842e4874a0b736e9ae5b7.bindPopup(popup_98e5ca7ae1544285923a0351e3e49e74);
 
             
         
     
 
-            var circle_cebb45c27d764b22913a2086e873549f = L.circle(
-                [40.814702000000004,-73.912036],
+            var circle_c521b2c2cdd245a7a76049131b1c8ef9 = L.circle(
+                [40.857969,-73.903757],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -285,24 +285,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_d47129b7a84b4aa292c50c56fd0d55ff = L.popup({maxWidth: '300'});
+            var popup_627f22bef09149edb13ccccc03daf78c = L.popup({maxWidth: '300'});
 
             
-                var html_6cba58274bef415ab6ace9bbcfe79933 = $('<div id="html_6cba58274bef415ab6ace9bbcfe79933" style="width: 100.0%; height: 100.0%;">J.H.S. 162 LOLA RODRIGUEZ DE TIO</div>')[0];
-                popup_d47129b7a84b4aa292c50c56fd0d55ff.setContent(html_6cba58274bef415ab6ace9bbcfe79933);
+                var html_6ed16b7f7c7f46c0b481b89b9af2af96 = $('<div id="html_6ed16b7f7c7f46c0b481b89b9af2af96" style="width: 100.0%; height: 100.0%;">P.S. 315 LAB SCHOOL</div>')[0];
+                popup_627f22bef09149edb13ccccc03daf78c.setContent(html_6ed16b7f7c7f46c0b481b89b9af2af96);
             
 
-            circle_cebb45c27d764b22913a2086e873549f.bindPopup(popup_d47129b7a84b4aa292c50c56fd0d55ff);
+            circle_c521b2c2cdd245a7a76049131b1c8ef9.bindPopup(popup_627f22bef09149edb13ccccc03daf78c);
 
             
         
     
 
-            var circle_acc456f8c13f441f8e498f9175f92843 = L.circle(
-                [40.810207,-73.91839],
+            var circle_0922adffc17f4c18aa72f33daf4eb3e3 = L.circle(
+                [40.84385,-73.890063],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -319,24 +319,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_b60483a36abf4217a957cf379ababdda = L.popup({maxWidth: '300'});
+            var popup_289bdc058107475ca746d0c4fccdeaac = L.popup({maxWidth: '300'});
 
             
-                var html_772f957482b24715a0952afc7952aefc = $('<div id="html_772f957482b24715a0952afc7952aefc" style="width: 100.0%; height: 100.0%;">P.S./I.S. 224</div>')[0];
-                popup_b60483a36abf4217a957cf379ababdda.setContent(html_772f957482b24715a0952afc7952aefc);
+                var html_63fe7c15917a4ecd9680f1e9791d3361 = $('<div id="html_63fe7c15917a4ecd9680f1e9791d3361" style="width: 100.0%; height: 100.0%;">P.S. 211</div>')[0];
+                popup_289bdc058107475ca746d0c4fccdeaac.setContent(html_63fe7c15917a4ecd9680f1e9791d3361);
             
 
-            circle_acc456f8c13f441f8e498f9175f92843.bindPopup(popup_b60483a36abf4217a957cf379ababdda);
+            circle_0922adffc17f4c18aa72f33daf4eb3e3.bindPopup(popup_289bdc058107475ca746d0c4fccdeaac);
 
             
         
     
 
-            var circle_51040b5cd9594a0e8bc27baa3530af47 = L.circle(
-                [40.818906,-73.905333],
+            var circle_c759bea76fdf4b4882546060a372288b = L.circle(
+                [40.655260999999996,-73.88633399999999],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -353,24 +353,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_821038c53c894ce9a4f899a4d39915c6 = L.popup({maxWidth: '300'});
+            var popup_5e9aab7eb8114ee4939fd6df8b7c5cec = L.popup({maxWidth: '300'});
 
             
-                var html_93438d72461b41beb075883e06619262 = $('<div id="html_93438d72461b41beb075883e06619262" style="width: 100.0%; height: 100.0%;">SOUTH BRONX ACADEMY FOR APPLIED MEDIA</div>')[0];
-                popup_821038c53c894ce9a4f899a4d39915c6.setContent(html_93438d72461b41beb075883e06619262);
+                var html_48bc2f91a3654c2db31bfce12124038e = $('<div id="html_48bc2f91a3654c2db31bfce12124038e" style="width: 100.0%; height: 100.0%;">P.S. 306 ETHAN ALLEN</div>')[0];
+                popup_5e9aab7eb8114ee4939fd6df8b7c5cec.setContent(html_48bc2f91a3654c2db31bfce12124038e);
             
 
-            circle_51040b5cd9594a0e8bc27baa3530af47.bindPopup(popup_821038c53c894ce9a4f899a4d39915c6);
+            circle_c759bea76fdf4b4882546060a372288b.bindPopup(popup_5e9aab7eb8114ee4939fd6df8b7c5cec);
 
             
         
     
 
-            var circle_63449fe40aba4648842d26f1afbabb61 = L.circle(
-                [40.845595,-73.829638],
+            var circle_2115aed1870544d6b207167e9856ec0f = L.circle(
+                [40.660228000000004,-73.90494699999999],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -387,24 +387,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_4aec50e206bb4ee3bf706a744cadc0e0 = L.popup({maxWidth: '300'});
+            var popup_ef88a3a7a742440f92a4e65d4d855a4e = L.popup({maxWidth: '300'});
 
             
-                var html_fb7137388c574da8a0364d12a03fd0fe = $('<div id="html_fb7137388c574da8a0364d12a03fd0fe" style="width: 100.0%; height: 100.0%;">P.S. 071 ROSE E. SCALA</div>')[0];
-                popup_4aec50e206bb4ee3bf706a744cadc0e0.setContent(html_fb7137388c574da8a0364d12a03fd0fe);
+                var html_c103c0459ef34d16a67d7e72f709df7c = $('<div id="html_c103c0459ef34d16a67d7e72f709df7c" style="width: 100.0%; height: 100.0%;">P.S. 184 NEWPORT</div>')[0];
+                popup_ef88a3a7a742440f92a4e65d4d855a4e.setContent(html_c103c0459ef34d16a67d7e72f709df7c);
             
 
-            circle_63449fe40aba4648842d26f1afbabb61.bindPopup(popup_4aec50e206bb4ee3bf706a744cadc0e0);
+            circle_2115aed1870544d6b207167e9856ec0f.bindPopup(popup_ef88a3a7a742440f92a4e65d4d855a4e);
 
             
         
     
 
-            var circle_bdf4f39e16c545958c89e6f432c9cad0 = L.circle(
-                [40.827214,-73.829212],
+            var circle_e2b6d47251a444e8a3573422f3072bda = L.circle(
+                [40.666934000000005,-73.90760999999999],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -421,24 +421,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_0e473ab70d5a4e4faae84eeca3c22f04 = L.popup({maxWidth: '300'});
+            var popup_03cac41273214069845bb49a72c7ab3f = L.popup({maxWidth: '300'});
 
             
-                var html_8456929dbfca42dea86732961cc7521a = $('<div id="html_8456929dbfca42dea86732961cc7521a" style="width: 100.0%; height: 100.0%;">M.S. X101 EDWARD R. BYRNE</div>')[0];
-                popup_0e473ab70d5a4e4faae84eeca3c22f04.setContent(html_8456929dbfca42dea86732961cc7521a);
+                var html_636e6f02f90a4bbaa228a09161a7a565 = $('<div id="html_636e6f02f90a4bbaa228a09161a7a565" style="width: 100.0%; height: 100.0%;">THE GREGORY JOCKO JACKSON SCHOOL OF SPORTS, ART, AND TECHNOLOGY</div>')[0];
+                popup_03cac41273214069845bb49a72c7ab3f.setContent(html_636e6f02f90a4bbaa228a09161a7a565);
             
 
-            circle_bdf4f39e16c545958c89e6f432c9cad0.bindPopup(popup_0e473ab70d5a4e4faae84eeca3c22f04);
+            circle_e2b6d47251a444e8a3573422f3072bda.bindPopup(popup_03cac41273214069845bb49a72c7ab3f);
 
             
         
     
 
-            var circle_5236a160658d412d96b1e9d8421f0cac = L.circle(
-                [40.824884000000004,-73.873517],
+            var circle_5e759c8bf36349259384ee09209890ec = L.circle(
+                [40.666247,-73.91127],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -455,24 +455,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_5e025bf7226e4ef7ada15e14b3184c33 = L.popup({maxWidth: '300'});
+            var popup_5c4081c5918f455dbdb5ac3f78f9c7ec = L.popup({maxWidth: '300'});
 
             
-                var html_a33060e6aa274184828ff8a44eed5623 = $('<div id="html_a33060e6aa274184828ff8a44eed5623" style="width: 100.0%; height: 100.0%;">J.H.S. 123 JAMES M. KIERAN</div>')[0];
-                popup_5e025bf7226e4ef7ada15e14b3184c33.setContent(html_a33060e6aa274184828ff8a44eed5623);
+                var html_7e14580d70784614af32229c268101cb = $('<div id="html_7e14580d70784614af32229c268101cb" style="width: 100.0%; height: 100.0%;">P.S./I.S. 323</div>')[0];
+                popup_5c4081c5918f455dbdb5ac3f78f9c7ec.setContent(html_7e14580d70784614af32229c268101cb);
             
 
-            circle_5236a160658d412d96b1e9d8421f0cac.bindPopup(popup_5e025bf7226e4ef7ada15e14b3184c33);
+            circle_5e759c8bf36349259384ee09209890ec.bindPopup(popup_5c4081c5918f455dbdb5ac3f78f9c7ec);
 
             
         
     
 
-            var circle_df8e51ee084546e383136d3cf7908c5b = L.circle(
-                [40.829414,-73.856783],
+            var circle_e8a5dbc87b6546b6b20b22d52f87a454 = L.circle(
+                [40.840277,-73.918654],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -489,24 +489,24 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_791634838d8d4683b089bad4995e69e4 = L.popup({maxWidth: '300'});
+            var popup_96a530981353426ba004fb42ae7d252b = L.popup({maxWidth: '300'});
 
             
-                var html_a160268e82bc40938c1cb9f1fe41e06c = $('<div id="html_a160268e82bc40938c1cb9f1fe41e06c" style="width: 100.0%; height: 100.0%;">J.H.S. 125 HENRY HUDSON</div>')[0];
-                popup_791634838d8d4683b089bad4995e69e4.setContent(html_a160268e82bc40938c1cb9f1fe41e06c);
+                var html_00608222792c4ded856280d992e62d81 = $('<div id="html_00608222792c4ded856280d992e62d81" style="width: 100.0%; height: 100.0%;">FAMILY LIFE ACADEMY CHARTER SCHOOL</div>')[0];
+                popup_96a530981353426ba004fb42ae7d252b.setContent(html_00608222792c4ded856280d992e62d81);
             
 
-            circle_df8e51ee084546e383136d3cf7908c5b.bindPopup(popup_791634838d8d4683b089bad4995e69e4);
+            circle_e8a5dbc87b6546b6b20b22d52f87a454.bindPopup(popup_96a530981353426ba004fb42ae7d252b);
 
             
         
     
 
-            var circle_c6cddb4034c44dc7b2ef79052d32280c = L.circle(
-                [40.823319,-73.860062],
+            var circle_1730f655c4e74749b1d722069641091d = L.circle(
+                [40.832271999999996,-73.905817],
                 {
   "bubblingMouseEvents": true,
   "color": "red",
@@ -523,3465 +523,201 @@
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                ).addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_bfb0325a32044f3792386a25be66da23 = L.popup({maxWidth: '300'});
+            var popup_8601fa29d7914ac9824b8f487106c477 = L.popup({maxWidth: '300'});
 
             
-                var html_73bd65b155b643028e8b0b066970e632 = $('<div id="html_73bd65b155b643028e8b0b066970e632" style="width: 100.0%; height: 100.0%;">J.H.S. 131 ALBERT EINSTEIN</div>')[0];
-                popup_bfb0325a32044f3792386a25be66da23.setContent(html_73bd65b155b643028e8b0b066970e632);
+                var html_7fe5c6354a0244c1b0c9db19ba843491 = $('<div id="html_7fe5c6354a0244c1b0c9db19ba843491" style="width: 100.0%; height: 100.0%;">HARRIET TUBMAN CHARTER SCHOOL</div>')[0];
+                popup_8601fa29d7914ac9824b8f487106c477.setContent(html_7fe5c6354a0244c1b0c9db19ba843491);
             
 
-            circle_c6cddb4034c44dc7b2ef79052d32280c.bindPopup(popup_bfb0325a32044f3792386a25be66da23);
+            circle_1730f655c4e74749b1d722069641091d.bindPopup(popup_8601fa29d7914ac9824b8f487106c477);
 
             
         
     
 
-            var circle_237df2e57748453fa3b42e3e81acd137 = L.circle(
-                [40.815971000000005,-73.901686],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ea924e264c6e475eb4568f13ffa4c1ae = L.popup({maxWidth: '300'});
-
-            
-                var html_2f4b1e28ebf648fcbd8399f969bbf67c = $('<div id="html_2f4b1e28ebf648fcbd8399f969bbf67c" style="width: 100.0%; height: 100.0%;">M.S. 302 LUISA DESSUS CRUZ</div>')[0];
-                popup_ea924e264c6e475eb4568f13ffa4c1ae.setContent(html_2f4b1e28ebf648fcbd8399f969bbf67c);
-            
-
-            circle_237df2e57748453fa3b42e3e81acd137.bindPopup(popup_ea924e264c6e475eb4568f13ffa4c1ae);
-
-            
-        
-    
-
-            var circle_6d6aaadd939e49e2a5ab78e5bf0200d9 = L.circle(
-                [40.832278,-73.914142],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_af2a488faef4463ba7a563d13f69c4f4 = L.popup({maxWidth: '300'});
-
-            
-                var html_bf1d6a5fac9c4108989251daac8e60a0 = $('<div id="html_bf1d6a5fac9c4108989251daac8e60a0" style="width: 100.0%; height: 100.0%;">J.H.S. 022 JORDAN L. MOTT</div>')[0];
-                popup_af2a488faef4463ba7a563d13f69c4f4.setContent(html_bf1d6a5fac9c4108989251daac8e60a0);
-            
-
-            circle_6d6aaadd939e49e2a5ab78e5bf0200d9.bindPopup(popup_af2a488faef4463ba7a563d13f69c4f4);
-
-            
-        
-    
-
-            var circle_c1b6ecedc6ee4cc1a80a99e0844e30b7 = L.circle(
-                [40.848521000000005,-73.908447],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_4d32a6d48ad54a22ac47a9800fe9232e = L.popup({maxWidth: '300'});
-
-            
-                var html_77059004d4d84a06b8ceb66b55649a10 = $('<div id="html_77059004d4d84a06b8ceb66b55649a10" style="width: 100.0%; height: 100.0%;">I.S. 117 JOSEPH H. WADE</div>')[0];
-                popup_4d32a6d48ad54a22ac47a9800fe9232e.setContent(html_77059004d4d84a06b8ceb66b55649a10);
-            
-
-            circle_c1b6ecedc6ee4cc1a80a99e0844e30b7.bindPopup(popup_4d32a6d48ad54a22ac47a9800fe9232e);
-
-            
-        
-    
-
-            var circle_adaa9aa711fc4f518e1b1633e17d5b2e = L.circle(
-                [40.827748,-73.91377299999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b58977dd85ae4d868f712dadc6c5a21b = L.popup({maxWidth: '300'});
-
-            
-                var html_1cbd453cb48947b7925c14a1a32a2864 = $('<div id="html_1cbd453cb48947b7925c14a1a32a2864" style="width: 100.0%; height: 100.0%;">J.H.S. 145 ARTURO TOSCANINI</div>')[0];
-                popup_b58977dd85ae4d868f712dadc6c5a21b.setContent(html_1cbd453cb48947b7925c14a1a32a2864);
-            
-
-            circle_adaa9aa711fc4f518e1b1633e17d5b2e.bindPopup(popup_b58977dd85ae4d868f712dadc6c5a21b);
-
-            
-        
-    
-
-            var circle_cb52fca60c5646b9a83acb3a0d729acf = L.circle(
-                [40.849461,-73.915529],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_0805d95e6bdb49269e2e87d768177848 = L.popup({maxWidth: '300'});
-
-            
-                var html_27b4ed23d5d640d0b2df748925cc41e3 = $('<div id="html_27b4ed23d5d640d0b2df748925cc41e3" style="width: 100.0%; height: 100.0%;">I.S. 232</div>')[0];
-                popup_0805d95e6bdb49269e2e87d768177848.setContent(html_27b4ed23d5d640d0b2df748925cc41e3);
-            
-
-            circle_cb52fca60c5646b9a83acb3a0d729acf.bindPopup(popup_0805d95e6bdb49269e2e87d768177848);
-
-            
-        
-    
-
-            var circle_d394d80f49ba489f82b3292cb8444c7f = L.circle(
-                [40.832278,-73.914142],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_9e27ff94942f479ab197f9492e52451a = L.popup({maxWidth: '300'});
-
-            
-                var html_0d90e431374f41848d60b132cc56d252 = $('<div id="html_0d90e431374f41848d60b132cc56d252" style="width: 100.0%; height: 100.0%;">BRONX WRITING ACADEMY</div>')[0];
-                popup_9e27ff94942f479ab197f9492e52451a.setContent(html_0d90e431374f41848d60b132cc56d252);
-            
-
-            circle_d394d80f49ba489f82b3292cb8444c7f.bindPopup(popup_9e27ff94942f479ab197f9492e52451a);
-
-            
-        
-    
-
-            var circle_d6589171b1fa4d33a52e6952f848c4b3 = L.circle(
-                [40.840589,-73.90454],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ffd6f394b3724111b126eabb33812a3e = L.popup({maxWidth: '300'});
-
-            
-                var html_5862641493f2496cb1f1d5b7890cd40c = $('<div id="html_5862641493f2496cb1f1d5b7890cd40c" style="width: 100.0%; height: 100.0%;">I.S. 339</div>')[0];
-                popup_ffd6f394b3724111b126eabb33812a3e.setContent(html_5862641493f2496cb1f1d5b7890cd40c);
-            
-
-            circle_d6589171b1fa4d33a52e6952f848c4b3.bindPopup(popup_ffd6f394b3724111b126eabb33812a3e);
-
-            
-        
-    
-
-            var circle_6259d9216b9841e68b6d67fa386d8adf = L.circle(
-                [40.838201,-73.928084],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ec59a55cbf684c13b9eade3a2ad6402e = L.popup({maxWidth: '300'});
-
-            
-                var html_c43b73a2ed014027908ef8fe67a681d9 = $('<div id="html_c43b73a2ed014027908ef8fe67a681d9" style="width: 100.0%; height: 100.0%;">THE HIGHBRIDGE GREEN SCHOOL</div>')[0];
-                popup_ec59a55cbf684c13b9eade3a2ad6402e.setContent(html_c43b73a2ed014027908ef8fe67a681d9);
-            
-
-            circle_6259d9216b9841e68b6d67fa386d8adf.bindPopup(popup_ec59a55cbf684c13b9eade3a2ad6402e);
-
-            
-        
-    
-
-            var circle_fa4b7d8857b4489b9bc37cddfd38a1ec = L.circle(
-                [40.828111,-73.917661],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_0385949344024d80bafaed022ae9ee16 = L.popup({maxWidth: '300'});
-
-            
-                var html_7f91c1e6819b40078cd36a19b6250eb4 = $('<div id="html_7f91c1e6819b40078cd36a19b6250eb4" style="width: 100.0%; height: 100.0%;">SCIENCE AND TECHNOLOGY ACADEMY: A MOTT HALL SCHOOL</div>')[0];
-                popup_0385949344024d80bafaed022ae9ee16.setContent(html_7f91c1e6819b40078cd36a19b6250eb4);
-            
-
-            circle_fa4b7d8857b4489b9bc37cddfd38a1ec.bindPopup(popup_0385949344024d80bafaed022ae9ee16);
-
-            
-        
-    
-
-            var circle_f294115deb264df3924b45430df27a76 = L.circle(
-                [40.858431,-73.887039],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_5df482c39d384efeb6e65e0c1aa8387f = L.popup({maxWidth: '300'});
-
-            
-                var html_deaf062ff4904920ab75e4e24c0a4a93 = $('<div id="html_deaf062ff4904920ab75e4e24c0a4a93" style="width: 100.0%; height: 100.0%;">THOMAS C. GIORDANO MIDDLE SCHOOL 45</div>')[0];
-                popup_5df482c39d384efeb6e65e0c1aa8387f.setContent(html_deaf062ff4904920ab75e4e24c0a4a93);
-            
-
-            circle_f294115deb264df3924b45430df27a76.bindPopup(popup_5df482c39d384efeb6e65e0c1aa8387f);
-
-            
-        
-    
-
-            var circle_da7ba327929448f989bae19abd9b9037 = L.circle(
-                [40.876823,-73.88124],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_35424c0d17144950bc8f8db67a6eb3ab = L.popup({maxWidth: '300'});
-
-            
-                var html_cc6d8a55f9744f8ca08f4a13b9859e69 = $('<div id="html_cc6d8a55f9744f8ca08f4a13b9859e69" style="width: 100.0%; height: 100.0%;">J.H.S. 080 THE MOSHOLU PARKWAY</div>')[0];
-                popup_35424c0d17144950bc8f8db67a6eb3ab.setContent(html_cc6d8a55f9744f8ca08f4a13b9859e69);
-            
-
-            circle_da7ba327929448f989bae19abd9b9037.bindPopup(popup_35424c0d17144950bc8f8db67a6eb3ab);
-
-            
-        
-    
-
-            var circle_0d9daef020b74af68ca729a71408375a = L.circle(
-                [40.848559,-73.89256999999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_9a8c1da9882c4c2cb5a02479cfe3c4a8 = L.popup({maxWidth: '300'});
-
-            
-                var html_7236fd90df164ec485c8ee219a0f708e = $('<div id="html_7236fd90df164ec485c8ee219a0f708e" style="width: 100.0%; height: 100.0%;">J.H.S. 118 WILLIAM W. NILES</div>')[0];
-                popup_9a8c1da9882c4c2cb5a02479cfe3c4a8.setContent(html_7236fd90df164ec485c8ee219a0f708e);
-            
-
-            circle_0d9daef020b74af68ca729a71408375a.bindPopup(popup_9a8c1da9882c4c2cb5a02479cfe3c4a8);
-
-            
-        
-    
-
-            var circle_fd93587c32684d99b3303cb4f9a517ff = L.circle(
-                [40.887701,-73.913605],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a53cd2e1b7cf4ec7892c5ec510010151 = L.popup({maxWidth: '300'});
-
-            
-                var html_4e8081b4df7e4ba3bab1c4f2e84024b7 = $('<div id="html_4e8081b4df7e4ba3bab1c4f2e84024b7" style="width: 100.0%; height: 100.0%;">RIVERDALE / KINGSBRIDGE ACADEMY (MIDDLE SCHOOL / HIGH SCHOOL 141)</div>')[0];
-                popup_a53cd2e1b7cf4ec7892c5ec510010151.setContent(html_4e8081b4df7e4ba3bab1c4f2e84024b7);
-            
-
-            circle_fd93587c32684d99b3303cb4f9a517ff.bindPopup(popup_a53cd2e1b7cf4ec7892c5ec510010151);
-
-            
-        
-    
-
-            var circle_890ae94381d64b2ea93ee123c2057d51 = L.circle(
-                [40.859604,-73.906275],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_fe969b1198d54079915466a2800917b9 = L.popup({maxWidth: '300'});
-
-            
-                var html_7a7984a0b22a40ffb02a58db04439408 = $('<div id="html_7a7984a0b22a40ffb02a58db04439408" style="width: 100.0%; height: 100.0%;">I.S. 206 ANN MERSEREAU</div>')[0];
-                popup_fe969b1198d54079915466a2800917b9.setContent(html_7a7984a0b22a40ffb02a58db04439408);
-            
-
-            circle_890ae94381d64b2ea93ee123c2057d51.bindPopup(popup_fe969b1198d54079915466a2800917b9);
-
-            
-        
-    
-
-            var circle_5b943432553b42109917748022322c24 = L.circle(
-                [40.875451,-73.901516],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b33b917ffad84780aa8ce17d824d7bac = L.popup({maxWidth: '300'});
-
-            
-                var html_92459247fc8a464097dd49c8ce8eaf21 = $('<div id="html_92459247fc8a464097dd49c8ce8eaf21" style="width: 100.0%; height: 100.0%;">THE NEW SCHOOL FOR LEADERSHIP AND JOURNALISM</div>')[0];
-                popup_b33b917ffad84780aa8ce17d824d7bac.setContent(html_92459247fc8a464097dd49c8ce8eaf21);
-            
-
-            circle_5b943432553b42109917748022322c24.bindPopup(popup_b33b917ffad84780aa8ce17d824d7bac);
-
-            
-        
-    
-
-            var circle_0281b0f279a9429496256782f392228f = L.circle(
-                [40.858858000000005,-73.889841],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_50f16408bd9d4137b7b7b9f00dd2110c = L.popup({maxWidth: '300'});
-
-            
-                var html_8cce17cd8ea34429b6f91233383c67e5 = $('<div id="html_8cce17cd8ea34429b6f91233383c67e5" style="width: 100.0%; height: 100.0%;">I.S. 254</div>')[0];
-                popup_50f16408bd9d4137b7b7b9f00dd2110c.setContent(html_8cce17cd8ea34429b6f91233383c67e5);
-            
-
-            circle_0281b0f279a9429496256782f392228f.bindPopup(popup_50f16408bd9d4137b7b7b9f00dd2110c);
-
-            
-        
-    
-
-            var circle_8404ea9837314d8899e5783b5731bc66 = L.circle(
-                [40.854751,-73.905024],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_1bbea42d924d47e4a615da1fbc29ba26 = L.popup({maxWidth: '300'});
-
-            
-                var html_6b123076372f4654bcb7d8161c3a77e9 = $('<div id="html_6b123076372f4654bcb7d8161c3a77e9" style="width: 100.0%; height: 100.0%;">P.S. 279 CAPTAIN MANUEL RIVERA, JR.</div>')[0];
-                popup_1bbea42d924d47e4a615da1fbc29ba26.setContent(html_6b123076372f4654bcb7d8161c3a77e9);
-            
-
-            circle_8404ea9837314d8899e5783b5731bc66.bindPopup(popup_1bbea42d924d47e4a615da1fbc29ba26);
-
-            
-        
-    
-
-            var circle_6d1e3e5021c14a32b4185be34d4ec6c7 = L.circle(
-                [40.851349,-73.910712],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_5010ebc134f54e779338b9ffe88a0395 = L.popup({maxWidth: '300'});
-
-            
-                var html_d77efef07cc94d098681cbbf9726262d = $('<div id="html_d77efef07cc94d098681cbbf9726262d" style="width: 100.0%; height: 100.0%;">THE BRONX SCHOOL OF YOUNG LEADERS</div>')[0];
-                popup_5010ebc134f54e779338b9ffe88a0395.setContent(html_d77efef07cc94d098681cbbf9726262d);
-            
-
-            circle_6d1e3e5021c14a32b4185be34d4ec6c7.bindPopup(popup_5010ebc134f54e779338b9ffe88a0395);
-
-            
-        
-    
-
-            var circle_e39250dbe96040dd9f75b37d17edb26f = L.circle(
-                [40.859506,-73.900475],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_5812e61f366744b3b84cd113b1adbc33 = L.popup({maxWidth: '300'});
-
-            
-                var html_de1c413a91004508b5741e582ff9d8fd = $('<div id="html_de1c413a91004508b5741e582ff9d8fd" style="width: 100.0%; height: 100.0%;">ACADEMY FOR PERSONAL LEADERSHIP AND EXCELLENCE</div>')[0];
-                popup_5812e61f366744b3b84cd113b1adbc33.setContent(html_de1c413a91004508b5741e582ff9d8fd);
-            
-
-            circle_e39250dbe96040dd9f75b37d17edb26f.bindPopup(popup_5812e61f366744b3b84cd113b1adbc33);
-
-            
-        
-    
-
-            var circle_a635225052a54ef5a27c3b640eedce31 = L.circle(
-                [40.87956,-73.909674],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_31de8d9ef9cb4051bbecbcb2395c1282 = L.popup({maxWidth: '300'});
-
-            
-                var html_378d0befc72a4633a4155129edc7a904 = $('<div id="html_378d0befc72a4633a4155129edc7a904" style="width: 100.0%; height: 100.0%;">IN-TECH ACADEMY (M.S. / HIGH SCHOOL 368)</div>')[0];
-                popup_31de8d9ef9cb4051bbecbcb2395c1282.setContent(html_378d0befc72a4633a4155129edc7a904);
-            
-
-            circle_a635225052a54ef5a27c3b640eedce31.bindPopup(popup_31de8d9ef9cb4051bbecbcb2395c1282);
-
-            
-        
-    
-
-            var circle_330ab81c53c1443bad68030e58f5f97a = L.circle(
-                [40.854366999999996,-73.913024],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_127dddae21c341878a3519dcc7b6a3da = L.popup({maxWidth: '300'});
-
-            
-                var html_3ff2a474a10745648a2a0ffc0a8fc290 = $('<div id="html_3ff2a474a10745648a2a0ffc0a8fc290" style="width: 100.0%; height: 100.0%;">M.S. 390</div>')[0];
-                popup_127dddae21c341878a3519dcc7b6a3da.setContent(html_3ff2a474a10745648a2a0ffc0a8fc290);
-            
-
-            circle_330ab81c53c1443bad68030e58f5f97a.bindPopup(popup_127dddae21c341878a3519dcc7b6a3da);
-
-            
-        
-    
-
-            var circle_92a8b45580f0422a94e95a780c9179c8 = L.circle(
-                [40.854655,-73.897036],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_df20eb14579840c4b0e25d0e0d16d0a1 = L.popup({maxWidth: '300'});
-
-            
-                var html_5c248d3cfc9640179a395bcccd19c980 = $('<div id="html_5c248d3cfc9640179a395bcccd19c980" style="width: 100.0%; height: 100.0%;">THE ANGELO PATRI MIDDLE SCHOOL</div>')[0];
-                popup_df20eb14579840c4b0e25d0e0d16d0a1.setContent(html_5c248d3cfc9640179a395bcccd19c980);
-            
-
-            circle_92a8b45580f0422a94e95a780c9179c8.bindPopup(popup_df20eb14579840c4b0e25d0e0d16d0a1);
-
-            
-        
-    
-
-            var circle_808d204368ef4d03a4b153bb4337dafc = L.circle(
-                [40.855211,-73.90326400000001],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a8467006f4c3459ea44ef26fe65f6a2f = L.popup({maxWidth: '300'});
-
-            
-                var html_4a50921103d4450d8e55ed77dd9713ef = $('<div id="html_4a50921103d4450d8e55ed77dd9713ef" style="width: 100.0%; height: 100.0%;">CRESTON ACADEMY</div>')[0];
-                popup_a8467006f4c3459ea44ef26fe65f6a2f.setContent(html_4a50921103d4450d8e55ed77dd9713ef);
-            
-
-            circle_808d204368ef4d03a4b153bb4337dafc.bindPopup(popup_a8467006f4c3459ea44ef26fe65f6a2f);
-
-            
-        
-    
-
-            var circle_16446aee5634444e821e91290edfda7f = L.circle(
-                [40.859506,-73.900475],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_7e305529fb954d708aa407185350a54d = L.popup({maxWidth: '300'});
-
-            
-                var html_3da3d28447c146c99359157277d76d20 = $('<div id="html_3da3d28447c146c99359157277d76d20" style="width: 100.0%; height: 100.0%;">EAST FORDHAM ACADEMY FOR THE ARTS</div>')[0];
-                popup_7e305529fb954d708aa407185350a54d.setContent(html_3da3d28447c146c99359157277d76d20);
-            
-
-            circle_16446aee5634444e821e91290edfda7f.bindPopup(popup_7e305529fb954d708aa407185350a54d);
-
-            
-        
-    
-
-            var circle_2ec014485df54e2a9c5ed7403bda386b = L.circle(
-                [40.862563,-73.859202],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_0d7a904265da4f9aa4d735048eaa871f = L.popup({maxWidth: '300'});
-
-            
-                var html_7197b8b5ac094a948cff460c20347bd8 = $('<div id="html_7197b8b5ac094a948cff460c20347bd8" style="width: 100.0%; height: 100.0%;">P.S. 089 BRONX</div>')[0];
-                popup_0d7a904265da4f9aa4d735048eaa871f.setContent(html_7197b8b5ac094a948cff460c20347bd8);
-            
-
-            circle_2ec014485df54e2a9c5ed7403bda386b.bindPopup(popup_0d7a904265da4f9aa4d735048eaa871f);
-
-            
-        
-    
-
-            var circle_b666c048f7834846aea137232a897536 = L.circle(
-                [40.838494,-73.853201],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_8e655f07c9fd478d96e73adc31c6c0bf = L.popup({maxWidth: '300'});
-
-            
-                var html_ea03bb154c154efcbb71ae556804c53d = $('<div id="html_ea03bb154c154efcbb71ae556804c53d" style="width: 100.0%; height: 100.0%;">J.H.S. 127 THE CASTLE HILL</div>')[0];
-                popup_8e655f07c9fd478d96e73adc31c6c0bf.setContent(html_ea03bb154c154efcbb71ae556804c53d);
-            
-
-            circle_b666c048f7834846aea137232a897536.bindPopup(popup_8e655f07c9fd478d96e73adc31c6c0bf);
-
-            
-        
-    
-
-            var circle_f42292a97b6f4baa8fd7a0a2e01dbfaf = L.circle(
-                [40.864290000000004,-73.836566],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a1027bc42ded46a38cbe46a4270d7300 = L.popup({maxWidth: '300'});
-
-            
-                var html_d543e42bcd9041aba78d1dee5b8e3ccb = $('<div id="html_d543e42bcd9041aba78d1dee5b8e3ccb" style="width: 100.0%; height: 100.0%;">J.H.S. 144 MICHELANGELO</div>')[0];
-                popup_a1027bc42ded46a38cbe46a4270d7300.setContent(html_d543e42bcd9041aba78d1dee5b8e3ccb);
-            
-
-            circle_f42292a97b6f4baa8fd7a0a2e01dbfaf.bindPopup(popup_a1027bc42ded46a38cbe46a4270d7300);
-
-            
-        
-    
-
-            var circle_f78ff98221cc4cc395e812564e82e56a = L.circle(
-                [40.873204,-73.832178],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_7ab8adcbd00e4d7e950c65765d1e0ceb = L.popup({maxWidth: '300'});
-
-            
-                var html_44b6796f41dc4892a6f54c27895615ee = $('<div id="html_44b6796f41dc4892a6f54c27895615ee" style="width: 100.0%; height: 100.0%;">M.S. 180 DR. DANIEL HALE WILLIAMS</div>')[0];
-                popup_7ab8adcbd00e4d7e950c65765d1e0ceb.setContent(html_44b6796f41dc4892a6f54c27895615ee);
-            
-
-            circle_f78ff98221cc4cc395e812564e82e56a.bindPopup(popup_7ab8adcbd00e4d7e950c65765d1e0ceb);
-
-            
-        
-    
-
-            var circle_6ec11c2e08974c93b974ce0d662c0d69 = L.circle(
-                [40.874988,-73.832178],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ec08e172071c429481d967d10fc77927 = L.popup({maxWidth: '300'});
-
-            
-                var html_ee15b5b2f0664c3dbeb9fa5c2e2e1eca = $('<div id="html_ee15b5b2f0664c3dbeb9fa5c2e2e1eca" style="width: 100.0%; height: 100.0%;">I.S. 181 PABLO CASALS</div>')[0];
-                popup_ec08e172071c429481d967d10fc77927.setContent(html_ee15b5b2f0664c3dbeb9fa5c2e2e1eca);
-            
-
-            circle_6ec11c2e08974c93b974ce0d662c0d69.bindPopup(popup_ec08e172071c429481d967d10fc77927);
-
-            
-        
-    
-
-            var circle_9b91b36c9bf640f28cd52b41ac98f0dc = L.circle(
-                [40.835236,-73.846547],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_488d443c77844e3f8e24f03f0ec15a16 = L.popup({maxWidth: '300'});
-
-            
-                var html_bb5e6809081e447b8a6018a83ca880c7 = $('<div id="html_bb5e6809081e447b8a6018a83ca880c7" style="width: 100.0%; height: 100.0%;">P.S./M.S. 194</div>')[0];
-                popup_488d443c77844e3f8e24f03f0ec15a16.setContent(html_bb5e6809081e447b8a6018a83ca880c7);
-            
-
-            circle_9b91b36c9bf640f28cd52b41ac98f0dc.bindPopup(popup_488d443c77844e3f8e24f03f0ec15a16);
-
-            
-        
-    
-
-            var circle_1e3f732805bb487c9c04182848ab796f = L.circle(
-                [40.880634,-73.860155],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_2a1fa3ef5a584982b23a0f8dc490df8a = L.popup({maxWidth: '300'});
-
-            
-                var html_dd2fcf38ca214f99a30f111894abb7d1 = $('<div id="html_dd2fcf38ca214f99a30f111894abb7d1" style="width: 100.0%; height: 100.0%;">THE YOUNG SCHOLARS ACADEMY OF THE BRONX</div>')[0];
-                popup_2a1fa3ef5a584982b23a0f8dc490df8a.setContent(html_dd2fcf38ca214f99a30f111894abb7d1);
-            
-
-            circle_1e3f732805bb487c9c04182848ab796f.bindPopup(popup_2a1fa3ef5a584982b23a0f8dc490df8a);
-
-            
-        
-    
-
-            var circle_9f1b1f1797cf4ee5af1e16000f9a7c66 = L.circle(
-                [40.86206,-73.864588],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_62bd33b5ab604e90b8e85ff2b166b82e = L.popup({maxWidth: '300'});
-
-            
-                var html_699943a8691a4528bc345878071bba6a = $('<div id="html_699943a8691a4528bc345878071bba6a" style="width: 100.0%; height: 100.0%;">BRONX GREEN MIDDLE SCHOOL</div>')[0];
-                popup_62bd33b5ab604e90b8e85ff2b166b82e.setContent(html_699943a8691a4528bc345878071bba6a);
-            
-
-            circle_9f1b1f1797cf4ee5af1e16000f9a7c66.bindPopup(popup_62bd33b5ab604e90b8e85ff2b166b82e);
-
-            
-        
-    
-
-            var circle_b629e82b0ff74b00be8bc7997e83285d = L.circle(
-                [40.886043,-73.840576],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_bded4eb7cfcc4797ba423573c9368560 = L.popup({maxWidth: '300'});
-
-            
-                var html_5121ed5f86dd4cb89ec08e055d482a55 = $('<div id="html_5121ed5f86dd4cb89ec08e055d482a55" style="width: 100.0%; height: 100.0%;">BRONX ALLIANCE MIDDLE SCHOOL</div>')[0];
-                popup_bded4eb7cfcc4797ba423573c9368560.setContent(html_5121ed5f86dd4cb89ec08e055d482a55);
-            
-
-            circle_b629e82b0ff74b00be8bc7997e83285d.bindPopup(popup_bded4eb7cfcc4797ba423573c9368560);
-
-            
-        
-    
-
-            var circle_4a9e070b5f3246748185b89d5c33b03d = L.circle(
-                [40.86206,-73.864588],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_bafc392f8a6748f188717fa66ae095a5 = L.popup({maxWidth: '300'});
-
-            
-                var html_22420426fb2f4545963921756cb62832 = $('<div id="html_22420426fb2f4545963921756cb62832" style="width: 100.0%; height: 100.0%;">PELHAM ACADEMY OF ACADEMICS AND COMMUNITY ENGAGEMENT</div>')[0];
-                popup_bafc392f8a6748f188717fa66ae095a5.setContent(html_22420426fb2f4545963921756cb62832);
-            
-
-            circle_4a9e070b5f3246748185b89d5c33b03d.bindPopup(popup_bafc392f8a6748f188717fa66ae095a5);
-
-            
-        
-    
-
-            var circle_0aede4e9ce0448568ca5690a1ecc3c1c = L.circle(
-                [40.886043,-73.840576],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_f768f83cf17145ea9e52949202487ff8 = L.popup({maxWidth: '300'});
-
-            
-                var html_12408d09f77643d9a2ed5cd368fbc454 = $('<div id="html_12408d09f77643d9a2ed5cd368fbc454" style="width: 100.0%; height: 100.0%;">ONE WORLD MIDDLE SCHOOL AT EDENWALD</div>')[0];
-                popup_f768f83cf17145ea9e52949202487ff8.setContent(html_12408d09f77643d9a2ed5cd368fbc454);
-            
-
-            circle_0aede4e9ce0448568ca5690a1ecc3c1c.bindPopup(popup_f768f83cf17145ea9e52949202487ff8);
-
-            
-        
-    
-
-            var circle_ff945d02f59944f987f3f93743f3bacf = L.circle(
-                [40.86206,-73.864588],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_8425cf3c1ac04760a7ce637c0b44f6e4 = L.popup({maxWidth: '300'});
-
-            
-                var html_96211ccb58634144a6563cb847a00b13 = $('<div id="html_96211ccb58634144a6563cb847a00b13" style="width: 100.0%; height: 100.0%;">BRONX PARK MIDDLE SCHOOL</div>')[0];
-                popup_8425cf3c1ac04760a7ce637c0b44f6e4.setContent(html_96211ccb58634144a6563cb847a00b13);
-            
-
-            circle_ff945d02f59944f987f3f93743f3bacf.bindPopup(popup_8425cf3c1ac04760a7ce637c0b44f6e4);
-
-            
-        
-    
-
-            var circle_9bdc7865daa8474db9c8e7cee63aaa3f = L.circle(
-                [40.864290000000004,-73.836566],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_1bb8b7bd50ea4500adf1e099b25ab397 = L.popup({maxWidth: '300'});
-
-            
-                var html_11f5edc0af36477ca9e0caa07f4ab98a = $('<div id="html_11f5edc0af36477ca9e0caa07f4ab98a" style="width: 100.0%; height: 100.0%;">PELHAM GARDENS MIDDLE SCHOOL</div>')[0];
-                popup_1bb8b7bd50ea4500adf1e099b25ab397.setContent(html_11f5edc0af36477ca9e0caa07f4ab98a);
-            
-
-            circle_9bdc7865daa8474db9c8e7cee63aaa3f.bindPopup(popup_1bb8b7bd50ea4500adf1e099b25ab397);
-
-            
-        
-    
-
-            var circle_3f69c7e102494846938345e41718d492 = L.circle(
-                [40.845682000000004,-73.88653199999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b7d3e6e5fde44f5a9fc2d225e22ddc5b = L.popup({maxWidth: '300'});
-
-            
-                var html_918055cc074b418ea2e91ea35ef910da = $('<div id="html_918055cc074b418ea2e91ea35ef910da" style="width: 100.0%; height: 100.0%;">M.S. 129 ACADEMY FOR INDEPENDENT LEARNING AND LEADERSHIP</div>')[0];
-                popup_b7d3e6e5fde44f5a9fc2d225e22ddc5b.setContent(html_918055cc074b418ea2e91ea35ef910da);
-            
-
-            circle_3f69c7e102494846938345e41718d492.bindPopup(popup_b7d3e6e5fde44f5a9fc2d225e22ddc5b);
-
-            
-        
-    
-
-            var circle_39bc694558f041438571450a988fdf0f = L.circle(
-                [40.839183,-73.88028],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ca0d962d2ec644919885a1b6def9e8f5 = L.popup({maxWidth: '300'});
-
-            
-                var html_d86688d5187b47529d64bf3ade04520b = $('<div id="html_d86688d5187b47529d64bf3ade04520b" style="width: 100.0%; height: 100.0%;">P.S. 214</div>')[0];
-                popup_ca0d962d2ec644919885a1b6def9e8f5.setContent(html_d86688d5187b47529d64bf3ade04520b);
-            
-
-            circle_39bc694558f041438571450a988fdf0f.bindPopup(popup_ca0d962d2ec644919885a1b6def9e8f5);
-
-            
-        
-    
-
-            var circle_9a2700969eed4ecc9cb46b5c315b594d = L.circle(
-                [40.845682000000004,-73.88653199999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_920a15f68ea942989dab173a92c98b39 = L.popup({maxWidth: '300'});
-
-            
-                var html_db92c7160f9c4d52a5f4a6c2c2623286 = $('<div id="html_db92c7160f9c4d52a5f4a6c2c2623286" style="width: 100.0%; height: 100.0%;">KAPPA III</div>')[0];
-                popup_920a15f68ea942989dab173a92c98b39.setContent(html_db92c7160f9c4d52a5f4a6c2c2623286);
-            
-
-            circle_9a2700969eed4ecc9cb46b5c315b594d.bindPopup(popup_920a15f68ea942989dab173a92c98b39);
-
-            
-        
-    
-
-            var circle_975fb7bbe591406b9d7292d585d959c9 = L.circle(
-                [40.688432,-73.97116899999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_1ef9268c26c44d3381baedccb496d0a6 = L.popup({maxWidth: '300'});
-
-            
-                var html_6614cf382115471fbcb999e1238d27e6 = $('<div id="html_6614cf382115471fbcb999e1238d27e6" style="width: 100.0%; height: 100.0%;">M.S. 113 RONALD EDMONDS LEARNING CENTER</div>')[0];
-                popup_1ef9268c26c44d3381baedccb496d0a6.setContent(html_6614cf382115471fbcb999e1238d27e6);
-            
-
-            circle_975fb7bbe591406b9d7292d585d959c9.bindPopup(popup_1ef9268c26c44d3381baedccb496d0a6);
-
-            
-        
-    
-
-            var circle_7d7c5b8dab92434fb827d2e14d6513f0 = L.circle(
-                [40.703215,-73.948503],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_6c56c1fd7b0f4855b7975d80f6b6f58f = L.popup({maxWidth: '300'});
-
-            
-                var html_c8fe4575c063452191788bd80bd22cec = $('<div id="html_c8fe4575c063452191788bd80bd22cec" style="width: 100.0%; height: 100.0%;">I.S. 318 EUGENIO MARIA DE HOSTOS</div>')[0];
-                popup_6c56c1fd7b0f4855b7975d80f6b6f58f.setContent(html_c8fe4575c063452191788bd80bd22cec);
-            
-
-            circle_7d7c5b8dab92434fb827d2e14d6513f0.bindPopup(popup_6c56c1fd7b0f4855b7975d80f6b6f58f);
-
-            
-        
-    
-
-            var circle_26637459b38644ed921320e3dd4120c4 = L.circle(
-                [40.660494,-73.9883],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b21b1acc88f248cba441c05c98459c08 = L.popup({maxWidth: '300'});
-
-            
-                var html_cffd7f90b32e48a5a990b0e68ff601c8 = $('<div id="html_cffd7f90b32e48a5a990b0e68ff601c8" style="width: 100.0%; height: 100.0%;">J.H.S. 088 PETER ROUGET</div>')[0];
-                popup_b21b1acc88f248cba441c05c98459c08.setContent(html_cffd7f90b32e48a5a990b0e68ff601c8);
-            
-
-            circle_26637459b38644ed921320e3dd4120c4.bindPopup(popup_b21b1acc88f248cba441c05c98459c08);
-
-            
-        
-    
-
-            var circle_e6d359c9d1f945f79c158d4469c2fd9a = L.circle(
-                [40.652095,-74.007424],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_2069f1930b614e4d865b51c1dad2f62b = L.popup({maxWidth: '300'});
-
-            
-                var html_33a53953424e4cc1a163a8f567991bc7 = $('<div id="html_33a53953424e4cc1a163a8f567991bc7" style="width: 100.0%; height: 100.0%;">I.S. 136 CHARLES O. DEWEY</div>')[0];
-                popup_2069f1930b614e4d865b51c1dad2f62b.setContent(html_33a53953424e4cc1a163a8f567991bc7);
-            
-
-            circle_e6d359c9d1f945f79c158d4469c2fd9a.bindPopup(popup_2069f1930b614e4d865b51c1dad2f62b);
-
-            
-        
-    
-
-            var circle_427697d50540428e9b64950c8d4488f2 = L.circle(
-                [40.656389000000004,-73.951462],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_37cc58db9cee4b6e8a7163a87e9ae81b = L.popup({maxWidth: '300'});
-
-            
-                var html_b65a0e44957043198db8befb79877e23 = $('<div id="html_b65a0e44957043198db8befb79877e23" style="width: 100.0%; height: 100.0%;">PARKSIDE PREPARATORY ACADEMY</div>')[0];
-                popup_37cc58db9cee4b6e8a7163a87e9ae81b.setContent(html_b65a0e44957043198db8befb79877e23);
-            
-
-            circle_427697d50540428e9b64950c8d4488f2.bindPopup(popup_37cc58db9cee4b6e8a7163a87e9ae81b);
-
-            
-        
-    
-
-            var circle_7e4f8a9936a44c818d2df7df700e0342 = L.circle(
-                [40.663676,-73.949034],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_05c76bfbeeb34542b0a5f2d6a8c86ebc = L.popup({maxWidth: '300'});
-
-            
-                var html_b1c07d2823a14d22b647e210ef4755d6 = $('<div id="html_b1c07d2823a14d22b647e210ef4755d6" style="width: 100.0%; height: 100.0%;">M.S. 061 DR. GLADSTONE H. ATWELL</div>')[0];
-                popup_05c76bfbeeb34542b0a5f2d6a8c86ebc.setContent(html_b1c07d2823a14d22b647e210ef4755d6);
-            
-
-            circle_7e4f8a9936a44c818d2df7df700e0342.bindPopup(popup_05c76bfbeeb34542b0a5f2d6a8c86ebc);
-
-            
-        
-    
-
-            var circle_90ba312a4d8d48b8a8b838312db3563d = L.circle(
-                [40.665446,-73.92568100000001],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_accc6a9c33024abfbb33780363136bc5 = L.popup({maxWidth: '300'});
-
-            
-                var html_5cf5142c7709478aad369f212f25e006 = $('<div id="html_5cf5142c7709478aad369f212f25e006" style="width: 100.0%; height: 100.0%;">P.S. 189 THE BILINGUAL CENTER</div>')[0];
-                popup_accc6a9c33024abfbb33780363136bc5.setContent(html_5cf5142c7709478aad369f212f25e006);
-            
-
-            circle_90ba312a4d8d48b8a8b838312db3563d.bindPopup(popup_accc6a9c33024abfbb33780363136bc5);
-
-            
-        
-    
-
-            var circle_165ca56c006142f3ab2a3284720498f5 = L.circle(
-                [40.648365000000005,-73.95343299999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_99c5be19b9bc4630be0df22922a873ef = L.popup({maxWidth: '300'});
-
-            
-                var html_065e9522c1bf4c90864cfa7864e3d5a2 = $('<div id="html_065e9522c1bf4c90864cfa7864e3d5a2" style="width: 100.0%; height: 100.0%;">M.S. 246 WALT WHITMAN</div>')[0];
-                popup_99c5be19b9bc4630be0df22922a873ef.setContent(html_065e9522c1bf4c90864cfa7864e3d5a2);
-            
-
-            circle_165ca56c006142f3ab2a3284720498f5.bindPopup(popup_99c5be19b9bc4630be0df22922a873ef);
-
-            
-        
-    
-
-            var circle_aa08efb60e4546609ab7fd072ab113cd = L.circle(
-                [40.635220000000004,-73.910912],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_79bbabe12fb54f3ca5e214c977c56f75 = L.popup({maxWidth: '300'});
-
-            
-                var html_a87185eea8dd41b6ba469410635f6009 = $('<div id="html_a87185eea8dd41b6ba469410635f6009" style="width: 100.0%; height: 100.0%;">I.S. 068 ISAAC BILDERSEE</div>')[0];
-                popup_79bbabe12fb54f3ca5e214c977c56f75.setContent(html_a87185eea8dd41b6ba469410635f6009);
-            
-
-            circle_aa08efb60e4546609ab7fd072ab113cd.bindPopup(popup_79bbabe12fb54f3ca5e214c977c56f75);
-
-            
-        
-    
-
-            var circle_38a0b92ce27b4cfeb6062e3f705d6fe8 = L.circle(
-                [40.643163,-73.895658],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b29127e321574a008fe161e1aa060fc2 = L.popup({maxWidth: '300'});
-
-            
-                var html_dd8b862a9bb741d6935295fd99f47e5d = $('<div id="html_dd8b862a9bb741d6935295fd99f47e5d" style="width: 100.0%; height: 100.0%;">I.S. 211 JOHN WILSON</div>')[0];
-                popup_b29127e321574a008fe161e1aa060fc2.setContent(html_dd8b862a9bb741d6935295fd99f47e5d);
-            
-
-            circle_38a0b92ce27b4cfeb6062e3f705d6fe8.bindPopup(popup_b29127e321574a008fe161e1aa060fc2);
-
-            
-        
-    
-
-            var circle_20816dd5669b47708367132bc03e8b17 = L.circle(
-                [40.647443,-73.920775],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_8ea6a7ca88034420b6aeeb924ab357d5 = L.popup({maxWidth: '300'});
-
-            
-                var html_42c48503a3e14ee2bc6611c0a9e5f0e1 = $('<div id="html_42c48503a3e14ee2bc6611c0a9e5f0e1" style="width: 100.0%; height: 100.0%;">I.S. 285 MEYER LEVIN</div>')[0];
-                popup_8ea6a7ca88034420b6aeeb924ab357d5.setContent(html_42c48503a3e14ee2bc6611c0a9e5f0e1);
-            
-
-            circle_20816dd5669b47708367132bc03e8b17.bindPopup(popup_8ea6a7ca88034420b6aeeb924ab357d5);
-
-            
-        
-    
-
-            var circle_036c0e651b8e4c0990977f1b9b6ecf9b = L.circle(
-                [40.647417,-73.891766],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_13995178e1114b4e90dc880d4244452e = L.popup({maxWidth: '300'});
-
-            
-                var html_234e7a74162f4f34aa77ed7d9f221a64 = $('<div id="html_234e7a74162f4f34aa77ed7d9f221a64" style="width: 100.0%; height: 100.0%;">THE SCIENCE AND MEDICINE MIDDLE SCHOOL</div>')[0];
-                popup_13995178e1114b4e90dc880d4244452e.setContent(html_234e7a74162f4f34aa77ed7d9f221a64);
-            
-
-            circle_036c0e651b8e4c0990977f1b9b6ecf9b.bindPopup(popup_13995178e1114b4e90dc880d4244452e);
-
-            
-        
-    
-
-            var circle_12864dbfd2dd41089836fd2d40396d18 = L.circle(
-                [40.685840999999996,-73.869429],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_db898ed205b644e2b9e9a49974d72e47 = L.popup({maxWidth: '300'});
-
-            
-                var html_c0750e6c12034088bf1ccc445546f90e = $('<div id="html_c0750e6c12034088bf1ccc445546f90e" style="width: 100.0%; height: 100.0%;">I.S. 171 ABRAHAM LINCOLN</div>')[0];
-                popup_db898ed205b644e2b9e9a49974d72e47.setContent(html_c0750e6c12034088bf1ccc445546f90e);
-            
-
-            circle_12864dbfd2dd41089836fd2d40396d18.bindPopup(popup_db898ed205b644e2b9e9a49974d72e47);
-
-            
-        
-    
-
-            var circle_9b4be7f2a78f406bbe434ce91b05915c = L.circle(
-                [40.670064,-73.87455600000001],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_22d2f6076e70477980ea22c49d2c10cf = L.popup({maxWidth: '300'});
-
-            
-                var html_b8911de63b864f879d31545e80d2d689 = $('<div id="html_b8911de63b864f879d31545e80d2d689" style="width: 100.0%; height: 100.0%;">J.H.S. 218 JAMES P. SINNOTT</div>')[0];
-                popup_22d2f6076e70477980ea22c49d2c10cf.setContent(html_b8911de63b864f879d31545e80d2d689);
-            
-
-            circle_9b4be7f2a78f406bbe434ce91b05915c.bindPopup(popup_22d2f6076e70477980ea22c49d2c10cf);
-
-            
-        
-    
-
-            var circle_6e130e4b0d7340d9a56516b4eef963f2 = L.circle(
-                [40.671887,-73.89345300000001],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_984b944aa938489898b033e6c3059f4b = L.popup({maxWidth: '300'});
-
-            
-                var html_d4209bfb2fe9438ba6ca90fb48a10f8a = $('<div id="html_d4209bfb2fe9438ba6ca90fb48a10f8a" style="width: 100.0%; height: 100.0%;">J.H.S. 292 MARGARET S. DOUGLAS</div>')[0];
-                popup_984b944aa938489898b033e6c3059f4b.setContent(html_d4209bfb2fe9438ba6ca90fb48a10f8a);
-            
-
-            circle_6e130e4b0d7340d9a56516b4eef963f2.bindPopup(popup_984b944aa938489898b033e6c3059f4b);
-
-            
-        
-    
-
-            var circle_574fbb4693f345e999c026f403bc1e11 = L.circle(
-                [40.659637,-73.885597],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a059cbfdfc43496e978b4ad6fd1e287d = L.popup({maxWidth: '300'});
-
-            
-                var html_e13ff5aecd3a49319e1fd4c45ee7d0d2 = $('<div id="html_e13ff5aecd3a49319e1fd4c45ee7d0d2" style="width: 100.0%; height: 100.0%;">VAN SICLEN COMMUNITY MIDDLE SCHOOL</div>')[0];
-                popup_a059cbfdfc43496e978b4ad6fd1e287d.setContent(html_e13ff5aecd3a49319e1fd4c45ee7d0d2);
-            
-
-            circle_574fbb4693f345e999c026f403bc1e11.bindPopup(popup_a059cbfdfc43496e978b4ad6fd1e287d);
-
-            
-        
-    
-
-            var circle_5c6c37b941ab471d88788ad8d0440d15 = L.circle(
-                [40.676982,-73.883838],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_347a426e4f7b47d69fc41f0385e92f2e = L.popup({maxWidth: '300'});
-
-            
-                var html_7fde3e9984b44842a5eaeaa980d3e185 = $('<div id="html_7fde3e9984b44842a5eaeaa980d3e185" style="width: 100.0%; height: 100.0%;">VISTA ACADEMY</div>')[0];
-                popup_347a426e4f7b47d69fc41f0385e92f2e.setContent(html_7fde3e9984b44842a5eaeaa980d3e185);
-            
-
-            circle_5c6c37b941ab471d88788ad8d0440d15.bindPopup(popup_347a426e4f7b47d69fc41f0385e92f2e);
-
-            
-        
-    
-
-            var circle_172c008e24b646668f62a675b342c8b4 = L.circle(
-                [40.676982,-73.883838],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_2680b88c4c30413dbddc159b1caf7cc0 = L.popup({maxWidth: '300'});
-
-            
-                var html_456a0a2b5af94e82b334e0fe2346e750 = $('<div id="html_456a0a2b5af94e82b334e0fe2346e750" style="width: 100.0%; height: 100.0%;">LIBERTY AVENUE MIDDLE SCHOOL</div>')[0];
-                popup_2680b88c4c30413dbddc159b1caf7cc0.setContent(html_456a0a2b5af94e82b334e0fe2346e750);
-            
-
-            circle_172c008e24b646668f62a675b342c8b4.bindPopup(popup_2680b88c4c30413dbddc159b1caf7cc0);
-
-            
-        
-    
-
-            var circle_9b42303e88f344ffa184018d890752b3 = L.circle(
-                [40.593515999999994,-73.938193],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_eb34890cf56f437aa9fe10aaa0834a51 = L.popup({maxWidth: '300'});
-
-            
-                var html_8506d12997484ae19b366e68f0bf1722 = $('<div id="html_8506d12997484ae19b366e68f0bf1722" style="width: 100.0%; height: 100.0%;">J.H.S. 014 SHELL BANK</div>')[0];
-                popup_eb34890cf56f437aa9fe10aaa0834a51.setContent(html_8506d12997484ae19b366e68f0bf1722);
-            
-
-            circle_9b42303e88f344ffa184018d890752b3.bindPopup(popup_eb34890cf56f437aa9fe10aaa0834a51);
-
-            
-        
-    
-
-            var circle_2890ea0b668244339f28263332510b11 = L.circle(
-                [40.620767,-73.912988],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_9958219b9b9f4da0b305e68860882a91 = L.popup({maxWidth: '300'});
-
-            
-                var html_254c2b5bc792453681d2c8e5471101ff = $('<div id="html_254c2b5bc792453681d2c8e5471101ff" style="width: 100.0%; height: 100.0%;">J.H.S. 078 ROY H. MANN</div>')[0];
-                popup_9958219b9b9f4da0b305e68860882a91.setContent(html_254c2b5bc792453681d2c8e5471101ff);
-            
-
-            circle_2890ea0b668244339f28263332510b11.bindPopup(popup_9958219b9b9f4da0b305e68860882a91);
-
-            
-        
-    
-
-            var circle_1a59a6e4c71e4fe58f60b1f314f3cf5b = L.circle(
-                [40.623798,-73.94682399999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_513d2ca6ddb645c688928aad6fd6b915 = L.popup({maxWidth: '300'});
-
-            
-                var html_e611d72aad60495a847db8c4462cd3be = $('<div id="html_e611d72aad60495a847db8c4462cd3be" style="width: 100.0%; height: 100.0%;">ANDRIES HUDDE</div>')[0];
-                popup_513d2ca6ddb645c688928aad6fd6b915.setContent(html_e611d72aad60495a847db8c4462cd3be);
-            
-
-            circle_1a59a6e4c71e4fe58f60b1f314f3cf5b.bindPopup(popup_513d2ca6ddb645c688928aad6fd6b915);
-
-            
-        
-    
-
-            var circle_cc99187a09a14e13994653b1a4f99c60 = L.circle(
-                [40.60667,-73.938716],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_61b222d1873949cdbcb981fce7230bdb = L.popup({maxWidth: '300'});
-
-            
-                var html_45c4ac8d5aaf47c888fe2252dd2e18e5 = $('<div id="html_45c4ac8d5aaf47c888fe2252dd2e18e5" style="width: 100.0%; height: 100.0%;">J.H.S. 278 MARINE PARK</div>')[0];
-                popup_61b222d1873949cdbcb981fce7230bdb.setContent(html_45c4ac8d5aaf47c888fe2252dd2e18e5);
-            
-
-            circle_cc99187a09a14e13994653b1a4f99c60.bindPopup(popup_61b222d1873949cdbcb981fce7230bdb);
-
-            
-        
-    
-
-            var circle_92b3cef36f984a54a8ed7d50e60efa67 = L.circle(
-                [40.612571,-73.951555],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_80fb1fd051324f41b67a3a81bf24b777 = L.popup({maxWidth: '300'});
-
-            
-                var html_0fc81c8646704941945cd752e6ef7e62 = $('<div id="html_0fc81c8646704941945cd752e6ef7e62" style="width: 100.0%; height: 100.0%;">I. S. 381</div>')[0];
-                popup_80fb1fd051324f41b67a3a81bf24b777.setContent(html_0fc81c8646704941945cd752e6ef7e62);
-            
-
-            circle_92b3cef36f984a54a8ed7d50e60efa67.bindPopup(popup_80fb1fd051324f41b67a3a81bf24b777);
-
-            
-        
-    
-
-            var circle_18ebe209137e4137a5e5f363e8fe1a51 = L.circle(
-                [40.742087,-73.862808],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a79df75fb8a942e3ae0ff979ddd5fc85 = L.popup({maxWidth: '300'});
-
-            
-                var html_e07cfe5f4e0d43aba55b79d14099de55 = $('<div id="html_e07cfe5f4e0d43aba55b79d14099de55" style="width: 100.0%; height: 100.0%;">I.S. 061 LEONARDO DA VINCI</div>')[0];
-                popup_a79df75fb8a942e3ae0ff979ddd5fc85.setContent(html_e07cfe5f4e0d43aba55b79d14099de55);
-            
-
-            circle_18ebe209137e4137a5e5f363e8fe1a51.bindPopup(popup_a79df75fb8a942e3ae0ff979ddd5fc85);
-
-            
-        
-    
-
-            var circle_f4c72d7e2da446ea9be92b42f1c22707 = L.circle(
-                [40.699269,-73.901988],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_65f81d6f82824b28b30f93e3ec70d238 = L.popup({maxWidth: '300'});
-
-            
-                var html_df3f49ec7b2a4930ae794241312abab0 = $('<div id="html_df3f49ec7b2a4930ae794241312abab0" style="width: 100.0%; height: 100.0%;">I.S. 077</div>')[0];
-                popup_65f81d6f82824b28b30f93e3ec70d238.setContent(html_df3f49ec7b2a4930ae794241312abab0);
-            
-
-            circle_f4c72d7e2da446ea9be92b42f1c22707.bindPopup(popup_65f81d6f82824b28b30f93e3ec70d238);
-
-            
-        
-    
-
-            var circle_28c335f79b7746dbab36c592e9a6d2ee = L.circle(
-                [40.705855,-73.902827],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_d78a0aaf8755449c8e50a3af58f73f3e = L.popup({maxWidth: '300'});
-
-            
-                var html_51b98ab197874e76bb98e0ac5ae73182 = $('<div id="html_51b98ab197874e76bb98e0ac5ae73182" style="width: 100.0%; height: 100.0%;">I.S. 093 RIDGEWOOD</div>')[0];
-                popup_d78a0aaf8755449c8e50a3af58f73f3e.setContent(html_51b98ab197874e76bb98e0ac5ae73182);
-            
-
-            circle_28c335f79b7746dbab36c592e9a6d2ee.bindPopup(popup_d78a0aaf8755449c8e50a3af58f73f3e);
-
-            
-        
-    
-
-            var circle_5cc99721e8fd45278dc6ab53db2abc4b = L.circle(
-                [40.603951,-73.749868],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_8ef8fa130b244e8f99025de3c9b25d59 = L.popup({maxWidth: '300'});
-
-            
-                var html_301acba64728405cbe60094236e65921 = $('<div id="html_301acba64728405cbe60094236e65921" style="width: 100.0%; height: 100.0%;">M.S. 053 BRIAN PICCOLO</div>')[0];
-                popup_8ef8fa130b244e8f99025de3c9b25d59.setContent(html_301acba64728405cbe60094236e65921);
-            
-
-            circle_5cc99721e8fd45278dc6ab53db2abc4b.bindPopup(popup_8ef8fa130b244e8f99025de3c9b25d59);
-
-            
-        
-    
-
-            var circle_749c8e0a1b7c431a876d5e544e569636 = L.circle(
-                [40.684802000000005,-73.847569],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_02f311b0727144b2a0f28347119d9a89 = L.popup({maxWidth: '300'});
-
-            
-                var html_c15e4259d59a4cb4abe674329c1c62c1 = $('<div id="html_c15e4259d59a4cb4abe674329c1c62c1" style="width: 100.0%; height: 100.0%;">J.H.S. 210 ELIZABETH BLACKWELL</div>')[0];
-                popup_02f311b0727144b2a0f28347119d9a89.setContent(html_c15e4259d59a4cb4abe674329c1c62c1);
-            
-
-            circle_749c8e0a1b7c431a876d5e544e569636.bindPopup(popup_02f311b0727144b2a0f28347119d9a89);
-
-            
-        
-    
-
-            var circle_4e9848fd5bf0496b9aa8513d231d8280 = L.circle(
-                [40.696913,-73.786396],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_77e76fabe24e43b7a9e1326e6396be59 = L.popup({maxWidth: '300'});
-
-            
-                var html_33a3c5c469fc4cdfaae2a765578f6b20 = $('<div id="html_33a3c5c469fc4cdfaae2a765578f6b20" style="width: 100.0%; height: 100.0%;">J.H.S. 008 RICHARD S. GROSSLEY</div>')[0];
-                popup_77e76fabe24e43b7a9e1326e6396be59.setContent(html_33a3c5c469fc4cdfaae2a765578f6b20);
-            
-
-            circle_4e9848fd5bf0496b9aa8513d231d8280.bindPopup(popup_77e76fabe24e43b7a9e1326e6396be59);
-
-            
-        
-    
-
-            var circle_b8d8a3079c934904bff510a5e05e6020 = L.circle(
-                [40.675061,-73.77561],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_1be6624f3f754a36b1fd1ffed9c44070 = L.popup({maxWidth: '300'});
-
-            
-                var html_0ef0a719131a43739280d81e0c95bfd2 = $('<div id="html_0ef0a719131a43739280d81e0c95bfd2" style="width: 100.0%; height: 100.0%;">CATHERINE & COUNT BASIE MIDDLE SCHOOL 72</div>')[0];
-                popup_1be6624f3f754a36b1fd1ffed9c44070.setContent(html_0ef0a719131a43739280d81e0c95bfd2);
-            
-
-            circle_b8d8a3079c934904bff510a5e05e6020.bindPopup(popup_1be6624f3f754a36b1fd1ffed9c44070);
-
-            
-        
-    
-
-            var circle_c2bbe68637624ee1848d423897b045a6 = L.circle(
-                [40.681888,-73.75304399999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_2a8c21e222ee4358b56759f92a4b2d50 = L.popup({maxWidth: '300'});
-
-            
-                var html_0492b0637fd14e568887e9d5f739deab = $('<div id="html_0492b0637fd14e568887e9d5f739deab" style="width: 100.0%; height: 100.0%;">I.S. 059 SPRINGFIELD GARDENS</div>')[0];
-                popup_2a8c21e222ee4358b56759f92a4b2d50.setContent(html_0492b0637fd14e568887e9d5f739deab);
-            
-
-            circle_c2bbe68637624ee1848d423897b045a6.bindPopup(popup_2a8c21e222ee4358b56759f92a4b2d50);
-
-            
-        
-    
-
-            var circle_8558a886b5ff44639832d3e7032d39f7 = L.circle(
-                [40.720411999999996,-73.746572],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a8ffe888d3464a0796381bb5d4501a1d = L.popup({maxWidth: '300'});
-
-            
-                var html_b410815b97914ee5a490195108677d15 = $('<div id="html_b410815b97914ee5a490195108677d15" style="width: 100.0%; height: 100.0%;">JEAN NUZZI INTERMEDIATE SCHOOL</div>')[0];
-                popup_a8ffe888d3464a0796381bb5d4501a1d.setContent(html_b410815b97914ee5a490195108677d15);
-            
-
-            circle_8558a886b5ff44639832d3e7032d39f7.bindPopup(popup_a8ffe888d3464a0796381bb5d4501a1d);
-
-            
-        
-    
-
-            var circle_9d7c8bb9899842b1986f65c5deff6667 = L.circle(
-                [40.706768,-73.753793],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_0b67fc3fae674e3faf78b6e98d8cdad4 = L.popup({maxWidth: '300'});
-
-            
-                var html_c82f5c9023854481ab45428d2cf756a0 = $('<div id="html_c82f5c9023854481ab45428d2cf756a0" style="width: 100.0%; height: 100.0%;">I.S. 192 THE LINDEN</div>')[0];
-                popup_0b67fc3fae674e3faf78b6e98d8cdad4.setContent(html_c82f5c9023854481ab45428d2cf756a0);
-            
-
-            circle_9d7c8bb9899842b1986f65c5deff6667.bindPopup(popup_0b67fc3fae674e3faf78b6e98d8cdad4);
-
-            
-        
-    
-
-            var circle_7ed0ed7d83774cdabb9bf7fc1c0f6b1f = L.circle(
-                [40.712771999999994,-73.780173],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_ee16780aaf3b4bfaa0d99d98ea476986 = L.popup({maxWidth: '300'});
-
-            
-                var html_83afda6d0d6049fca02b38dca66d9c65 = $('<div id="html_83afda6d0d6049fca02b38dca66d9c65" style="width: 100.0%; height: 100.0%;">I.S. 238 - SUSAN B. ANTHONY ACADEMY</div>')[0];
-                popup_ee16780aaf3b4bfaa0d99d98ea476986.setContent(html_83afda6d0d6049fca02b38dca66d9c65);
-            
-
-            circle_7ed0ed7d83774cdabb9bf7fc1c0f6b1f.bindPopup(popup_ee16780aaf3b4bfaa0d99d98ea476986);
-
-            
-        
-    
-
-            var circle_67fcd389aed94ad8a62eb7501a98262b = L.circle(
-                [40.664858,-73.759088],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_c406db3a269b4a40a3fa70368dc5918d = L.popup({maxWidth: '300'});
-
-            
-                var html_f28c017d246943519120e218098ae069 = $('<div id="html_f28c017d246943519120e218098ae069" style="width: 100.0%; height: 100.0%;">COLLABORATIVE ARTS MIDDLE SCHOOL</div>')[0];
-                popup_c406db3a269b4a40a3fa70368dc5918d.setContent(html_f28c017d246943519120e218098ae069);
-            
-
-            circle_67fcd389aed94ad8a62eb7501a98262b.bindPopup(popup_c406db3a269b4a40a3fa70368dc5918d);
-
-            
-        
-    
-
-            var circle_2eea5bb3db8a410382de52e000f56fe5 = L.circle(
-                [40.664858,-73.759088],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_f2ae27b3b7ea479eb1710d986a8ac7a6 = L.popup({maxWidth: '300'});
-
-            
-                var html_03c42fd58ffc4f469c23369e3472a752 = $('<div id="html_03c42fd58ffc4f469c23369e3472a752" style="width: 100.0%; height: 100.0%;">COMMUNITY VOICES MIDDLE SCHOOL</div>')[0];
-                popup_f2ae27b3b7ea479eb1710d986a8ac7a6.setContent(html_03c42fd58ffc4f469c23369e3472a752);
-            
-
-            circle_2eea5bb3db8a410382de52e000f56fe5.bindPopup(popup_f2ae27b3b7ea479eb1710d986a8ac7a6);
-
-            
-        
-    
-
-            var circle_63e18554228a4bc4ba7234ffbc50608a = L.circle(
-                [40.766101,-73.929913],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_f78b8a0f4fad49d684715ad0bb13fcd2 = L.popup({maxWidth: '300'});
-
-            
-                var html_df229c9c69e14e4f8cffc0d42edbe96d = $('<div id="html_df229c9c69e14e4f8cffc0d42edbe96d" style="width: 100.0%; height: 100.0%;">ALBERT SHANKER SCHOOL FOR VISUAL AND PERFORMING ARTS</div>')[0];
-                popup_f78b8a0f4fad49d684715ad0bb13fcd2.setContent(html_df229c9c69e14e4f8cffc0d42edbe96d);
-            
-
-            circle_63e18554228a4bc4ba7234ffbc50608a.bindPopup(popup_f78b8a0f4fad49d684715ad0bb13fcd2);
-
-            
-        
-    
-
-            var circle_20b0d1f5625647ac8660d9bb45e8ddc1 = L.circle(
-                [40.764979,-73.871196],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_5a8ae793910e413c9883602c6358d77c = L.popup({maxWidth: '300'});
-
-            
-                var html_a75799980db9496cb60dad773eeb3f13 = $('<div id="html_a75799980db9496cb60dad773eeb3f13" style="width: 100.0%; height: 100.0%;">P.S. 127 AEROSPACE SCIENCE MAGNET SCHOOL</div>')[0];
-                popup_5a8ae793910e413c9883602c6358d77c.setContent(html_a75799980db9496cb60dad773eeb3f13);
-            
-
-            circle_20b0d1f5625647ac8660d9bb45e8ddc1.bindPopup(popup_5a8ae793910e413c9883602c6358d77c);
-
-            
-        
-    
-
-            var circle_faf0edf7d3aa470f8f5f3d0793ada96c = L.circle(
-                [40.754326,-73.88759399999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_15fcd323bddf4a828dd7e98fea0cfb77 = L.popup({maxWidth: '300'});
-
-            
-                var html_7b4fca06904d40d5a33389864810e756 = $('<div id="html_7b4fca06904d40d5a33389864810e756" style="width: 100.0%; height: 100.0%;">I.S. 145 JOSEPH PULITZER</div>')[0];
-                popup_15fcd323bddf4a828dd7e98fea0cfb77.setContent(html_7b4fca06904d40d5a33389864810e756);
-            
-
-            circle_faf0edf7d3aa470f8f5f3d0793ada96c.bindPopup(popup_15fcd323bddf4a828dd7e98fea0cfb77);
-
-            
-        
-    
-
-            var circle_9a75736000bd4cefa8f4f798623b5623 = L.circle(
-                [40.756628000000006,-73.932648],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_b643bd03f4e84e5697bbc368ec84c940 = L.popup({maxWidth: '300'});
-
-            
-                var html_aef515640e68498daebaa1112f440a67 = $('<div id="html_aef515640e68498daebaa1112f440a67" style="width: 100.0%; height: 100.0%;">I.S. 204 OLIVER W. HOLMES</div>')[0];
-                popup_b643bd03f4e84e5697bbc368ec84c940.setContent(html_aef515640e68498daebaa1112f440a67);
-            
-
-            circle_9a75736000bd4cefa8f4f798623b5623.bindPopup(popup_b643bd03f4e84e5697bbc368ec84c940);
-
-            
-        
-    
-
-            var circle_d7543833cadf4e2bad4a5bf08c39ea88 = L.circle(
-                [40.74308,-73.959251],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_197817eb1cb640509a58a1992aa2443a = L.popup({maxWidth: '300'});
-
-            
-                var html_f6aa9a8f92d94159833659345a5ee5ec = $('<div id="html_f6aa9a8f92d94159833659345a5ee5ec" style="width: 100.0%; height: 100.0%;">HUNTERS POINT COMMUNITY MIDDLE SCHOOL</div>')[0];
-                popup_197817eb1cb640509a58a1992aa2443a.setContent(html_f6aa9a8f92d94159833659345a5ee5ec);
-            
-
-            circle_d7543833cadf4e2bad4a5bf08c39ea88.bindPopup(popup_197817eb1cb640509a58a1992aa2443a);
-
-            
-        
-    
-
-            var circle_1d6870d594e345cbab2198110c812b68 = L.circle(
-                [40.628284,-74.117592],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_fd0d7477eecf42c99ee7858bd7ac8090 = L.popup({maxWidth: '300'});
-
-            
-                var html_60a25b8987ed45578d6cf39106df79f7 = $('<div id="html_60a25b8987ed45578d6cf39106df79f7" style="width: 100.0%; height: 100.0%;">I.S. 027 ANNING S. PRALL</div>')[0];
-                popup_fd0d7477eecf42c99ee7858bd7ac8090.setContent(html_60a25b8987ed45578d6cf39106df79f7);
-            
-
-            circle_1d6870d594e345cbab2198110c812b68.bindPopup(popup_fd0d7477eecf42c99ee7858bd7ac8090);
-
-            
-        
-    
-
-            var circle_c639a38b48fc47b08917b62256289918 = L.circle(
-                [40.620483,-74.080771],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_3382017fa00247b3b7a615a1abb8c3b2 = L.popup({maxWidth: '300'});
-
-            
-                var html_295265389cfa4cfeaa480502ca123eb8 = $('<div id="html_295265389cfa4cfeaa480502ca123eb8" style="width: 100.0%; height: 100.0%;">I.S. 49 BERTA A. DREYFUS</div>')[0];
-                popup_3382017fa00247b3b7a615a1abb8c3b2.setContent(html_295265389cfa4cfeaa480502ca123eb8);
-            
-
-            circle_c639a38b48fc47b08917b62256289918.bindPopup(popup_3382017fa00247b3b7a615a1abb8c3b2);
-
-            
-        
-    
-
-            var circle_1922d403e9d54c62b0cf30b9fb282911 = L.circle(
-                [40.623011,-74.14529499999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_549a648dd1e947bcbb415dfcc8b82053 = L.popup({maxWidth: '300'});
-
-            
-                var html_80ddd89feaf94f0f997bafc6b6fdb667 = $('<div id="html_80ddd89feaf94f0f997bafc6b6fdb667" style="width: 100.0%; height: 100.0%;">I.S. 051 EDWIN MARKHAM</div>')[0];
-                popup_549a648dd1e947bcbb415dfcc8b82053.setContent(html_80ddd89feaf94f0f997bafc6b6fdb667);
-            
-
-            circle_1922d403e9d54c62b0cf30b9fb282911.bindPopup(popup_549a648dd1e947bcbb415dfcc8b82053);
-
-            
-        
-    
-
-            var circle_1a6b5d28f8ba4ece8721580c1e51b3e8 = L.circle(
-                [40.634527,-74.097992],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_6b4daf7a18654743b2dc6e565a5b6f93 = L.popup({maxWidth: '300'});
-
-            
-                var html_4fa78ed95ab0431b92e8bf4ce8b354a3 = $('<div id="html_4fa78ed95ab0431b92e8bf4ce8b354a3" style="width: 100.0%; height: 100.0%;">I.S. 061 WILLIAM A MORRIS</div>')[0];
-                popup_6b4daf7a18654743b2dc6e565a5b6f93.setContent(html_4fa78ed95ab0431b92e8bf4ce8b354a3);
-            
-
-            circle_1a6b5d28f8ba4ece8721580c1e51b3e8.bindPopup(popup_6b4daf7a18654743b2dc6e565a5b6f93);
-
-            
-        
-    
-
-            var circle_b8f637b67438458c9dfb72cd33caab5b = L.circle(
-                [40.706871,-73.92002],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_506d0c28fdc6493e9d280f8de2d38ada = L.popup({maxWidth: '300'});
-
-            
-                var html_a8c4195c4a77490fa90e20c7c42b2b17 = $('<div id="html_a8c4195c4a77490fa90e20c7c42b2b17" style="width: 100.0%; height: 100.0%;">J.H.S. 162 THE WILLOUGHBY</div>')[0];
-                popup_506d0c28fdc6493e9d280f8de2d38ada.setContent(html_a8c4195c4a77490fa90e20c7c42b2b17);
-            
-
-            circle_b8f637b67438458c9dfb72cd33caab5b.bindPopup(popup_506d0c28fdc6493e9d280f8de2d38ada);
-
-            
-        
-    
-
-            var circle_f39c35742c7a4bc99c82f04fdc813af8 = L.circle(
-                [40.695648,-73.915406],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_49cf0719993f449d8786419c883cc787 = L.popup({maxWidth: '300'});
-
-            
-                var html_31489bbe023743a38d27a9b2c88fdae1 = $('<div id="html_31489bbe023743a38d27a9b2c88fdae1" style="width: 100.0%; height: 100.0%;">J.H.S. 291 ROLAND HAYES</div>')[0];
-                popup_49cf0719993f449d8786419c883cc787.setContent(html_31489bbe023743a38d27a9b2c88fdae1);
-            
-
-            circle_f39c35742c7a4bc99c82f04fdc813af8.bindPopup(popup_49cf0719993f449d8786419c883cc787);
-
-            
-        
-    
-
-            var circle_6259475464074009aadce3080336a1d2 = L.circle(
-                [40.700818,-73.927587],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_4c333c944ba749a4a92c263264472605 = L.popup({maxWidth: '300'});
-
-            
-                var html_e97e597f0373405d93ec41c69e763ffa = $('<div id="html_e97e597f0373405d93ec41c69e763ffa" style="width: 100.0%; height: 100.0%;">I.S. 347 SCHOOL OF HUMANITIES</div>')[0];
-                popup_4c333c944ba749a4a92c263264472605.setContent(html_e97e597f0373405d93ec41c69e763ffa);
-            
-
-            circle_6259475464074009aadce3080336a1d2.bindPopup(popup_4c333c944ba749a4a92c263264472605);
-
-            
-        
-    
-
-            var circle_945b723dbc9e4b82ad2102d27883c263 = L.circle(
-                [40.700818,-73.927587],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_f336f6042b104d2ba9d90ba189481cd7 = L.popup({maxWidth: '300'});
-
-            
-                var html_5e6d2a941786428fa363f29060cc4d53 = $('<div id="html_5e6d2a941786428fa363f29060cc4d53" style="width: 100.0%; height: 100.0%;">I.S. 349 MATH, SCIENCE & TECH.</div>')[0];
-                popup_f336f6042b104d2ba9d90ba189481cd7.setContent(html_5e6d2a941786428fa363f29060cc4d53);
-            
-
-            circle_945b723dbc9e4b82ad2102d27883c263.bindPopup(popup_f336f6042b104d2ba9d90ba189481cd7);
-
-            
-        
-    
-
-            var circle_8fbbcea0adac49e18d3bb92ffc6f43e0 = L.circle(
-                [40.697891999999996,-73.919072],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a54afcacd95b4b8589c1666b8279d6fe = L.popup({maxWidth: '300'});
-
-            
-                var html_efc2f7ff32eb47dfab922cc2e3576814 = $('<div id="html_efc2f7ff32eb47dfab922cc2e3576814" style="width: 100.0%; height: 100.0%;">J.H.S. 383 PHILIPPA SCHUYLER</div>')[0];
-                popup_a54afcacd95b4b8589c1666b8279d6fe.setContent(html_efc2f7ff32eb47dfab922cc2e3576814);
-            
-
-            circle_8fbbcea0adac49e18d3bb92ffc6f43e0.bindPopup(popup_a54afcacd95b4b8589c1666b8279d6fe);
-
-            
-        
-    
-
-            var circle_e65f44e18a25419cb3d3515fcd723c28 = L.circle(
-                [40.686208,-73.940924],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_d30723abeee847f9a8ecb07a618bc9c4 = L.popup({maxWidth: '300'});
-
-            
-                var html_92c25ebd825145a488d5fe8631f906c2 = $('<div id="html_92c25ebd825145a488d5fe8631f906c2" style="width: 100.0%; height: 100.0%;">UNITY PREP CHARTER SCHOOL</div>')[0];
-                popup_d30723abeee847f9a8ecb07a618bc9c4.setContent(html_92c25ebd825145a488d5fe8631f906c2);
-            
-
-            circle_e65f44e18a25419cb3d3515fcd723c28.bindPopup(popup_d30723abeee847f9a8ecb07a618bc9c4);
-
-            
-        
-    
-
-            var circle_1f90709837ea4ea5a4b8e50faa62022c = L.circle(
-                [40.803013,-73.948255],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_6d22f04b9aaf4cd7a437e89a54acd38a = L.popup({maxWidth: '300'});
-
-            
-                var html_f6381592d67f463b96d1c55785527cb1 = $('<div id="html_f6381592d67f463b96d1c55785527cb1" style="width: 100.0%; height: 100.0%;">SUCCESS ACADEMY CHARTER SCHOOL - HARLEM 1</div>')[0];
-                popup_6d22f04b9aaf4cd7a437e89a54acd38a.setContent(html_f6381592d67f463b96d1c55785527cb1);
-            
-
-            circle_1f90709837ea4ea5a4b8e50faa62022c.bindPopup(popup_6d22f04b9aaf4cd7a437e89a54acd38a);
-
-            
-        
-    
-
-            var circle_b7bf408559bd4b16a01c7bb7ac38bbf1 = L.circle(
-                [40.863962,-73.93304300000001],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a18eac0446144b43b96df5bd59cf10c6 = L.popup({maxWidth: '300'});
-
-            
-                var html_5903670fb8974609afcb81cb04164cab = $('<div id="html_5903670fb8974609afcb81cb04164cab" style="width: 100.0%; height: 100.0%;">THE EQUITY PROJECT CHARTER SCHOOL (TEP)</div>')[0];
-                popup_a18eac0446144b43b96df5bd59cf10c6.setContent(html_5903670fb8974609afcb81cb04164cab);
-            
-
-            circle_b7bf408559bd4b16a01c7bb7ac38bbf1.bindPopup(popup_a18eac0446144b43b96df5bd59cf10c6);
-
-            
-        
-    
-
-            var circle_6ac9567c1e6f4b6ba2ce1afaef398afc = L.circle(
-                [40.869008,-73.920884],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_39b5617faca9464dbdebc02c57da2d52 = L.popup({maxWidth: '300'});
-
-            
-                var html_3253d90a32364f9a9598c4c0ea480dcd = $('<div id="html_3253d90a32364f9a9598c4c0ea480dcd" style="width: 100.0%; height: 100.0%;">INWOOD ACADEMY FOR LEADERSHIP CHARTER SCHOOL</div>')[0];
-                popup_39b5617faca9464dbdebc02c57da2d52.setContent(html_3253d90a32364f9a9598c4c0ea480dcd);
-            
-
-            circle_6ac9567c1e6f4b6ba2ce1afaef398afc.bindPopup(popup_39b5617faca9464dbdebc02c57da2d52);
-
-            
-        
-    
-
-            var circle_588291c32c0e49c9bea2e7cd23d7f9b7 = L.circle(
-                [40.639517,-74.13707099999999],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_78f97012b0b14d6e9dfefd5b29d8f90c = L.popup({maxWidth: '300'});
-
-            
-                var html_faf4e1d34c544038b7aa1e87f2d0e612 = $('<div id="html_faf4e1d34c544038b7aa1e87f2d0e612" style="width: 100.0%; height: 100.0%;">NEW WORLD PREPARATORY CHARTER SCHOOL</div>')[0];
-                popup_78f97012b0b14d6e9dfefd5b29d8f90c.setContent(html_faf4e1d34c544038b7aa1e87f2d0e612);
-            
-
-            circle_588291c32c0e49c9bea2e7cd23d7f9b7.bindPopup(popup_78f97012b0b14d6e9dfefd5b29d8f90c);
-
-            
-        
-    
-
-            var circle_3cb5d48f664548a6a013c635b3107c2a = L.circle(
-                [40.827387,-73.900529],
-                {
-  "bubblingMouseEvents": true,
-  "color": "red",
-  "dashArray": null,
-  "dashOffset": null,
-  "fill": true,
-  "fillColor": "red",
-  "fillOpacity": 0.2,
-  "fillRule": "evenodd",
-  "lineCap": "round",
-  "lineJoin": "round",
-  "opacity": 1.0,
-  "radius": 200,
-  "stroke": true,
-  "weight": 3
-}
-                ).addTo(map_e7a9bfa709614d8baca5e5571f262747);
-            
-    
-            var popup_a02fb940047946658f0ce0808ed4dd58 = L.popup({maxWidth: '300'});
-
-            
-                var html_2ba7788c54904872b48715acada769bc = $('<div id="html_2ba7788c54904872b48715acada769bc" style="width: 100.0%; height: 100.0%;">DR. RICHARD IZQUIERDO HEALTH AND SCIENCE CHARTER SCHOOL</div>')[0];
-                popup_a02fb940047946658f0ce0808ed4dd58.setContent(html_2ba7788c54904872b48715acada769bc);
-            
-
-            circle_3cb5d48f664548a6a013c635b3107c2a.bindPopup(popup_a02fb940047946658f0ce0808ed4dd58);
-
-            
-        
-    
-
-            var marker_9b9fbb34cb074fec8dd13cda1c8ab119 = L.marker(
+            var marker_b9335161279f41aeb8d0d144e16d9284 = L.marker(
                 [40.567913003000456,-74.11536224299965],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_aff96736230846f7bfb054c98c1b7b4d = L.popup({maxWidth: '300'});
+            var popup_58e5f621ddc546069997a211219da4b6 = L.popup({maxWidth: '300'});
 
             
-                var html_069cee1c1d4640a8ae0cb4627502ee82 = $('<div id="html_069cee1c1d4640a8ae0cb4627502ee82" style="width: 100.0%; height: 100.0%;">Staten Island Technical High School</div>')[0];
-                popup_aff96736230846f7bfb054c98c1b7b4d.setContent(html_069cee1c1d4640a8ae0cb4627502ee82);
+                var html_cb59543c57ab439c95bf1b231c5bd205 = $('<div id="html_cb59543c57ab439c95bf1b231c5bd205" style="width: 100.0%; height: 100.0%;">Staten Island Technical High School</div>')[0];
+                popup_58e5f621ddc546069997a211219da4b6.setContent(html_cb59543c57ab439c95bf1b231c5bd205);
             
 
-            marker_9b9fbb34cb074fec8dd13cda1c8ab119.bindPopup(popup_aff96736230846f7bfb054c98c1b7b4d);
+            marker_b9335161279f41aeb8d0d144e16d9284.bindPopup(popup_58e5f621ddc546069997a211219da4b6);
 
             
         
     
 
-            var marker_1d86d56102a94633bdcdd233fa1dc1e3 = L.marker(
+            var marker_b3b1938d163648fd8084c1ae38ba96b1 = L.marker(
                 [40.87705636800047,-73.88978035099967],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_d48577f6fd4d4663b20e0ed4f8d7d039 = L.popup({maxWidth: '300'});
+            var popup_40b809a7645d48658eb0a102368f2af7 = L.popup({maxWidth: '300'});
 
             
-                var html_12234f0c8bd3496880451bdcfba23bac = $('<div id="html_12234f0c8bd3496880451bdcfba23bac" style="width: 100.0%; height: 100.0%;">Bronx High School of Science</div>')[0];
-                popup_d48577f6fd4d4663b20e0ed4f8d7d039.setContent(html_12234f0c8bd3496880451bdcfba23bac);
+                var html_b20759fe8e0143ab9a08bf805b110dcb = $('<div id="html_b20759fe8e0143ab9a08bf805b110dcb" style="width: 100.0%; height: 100.0%;">Bronx High School of Science</div>')[0];
+                popup_40b809a7645d48658eb0a102368f2af7.setContent(html_b20759fe8e0143ab9a08bf805b110dcb);
             
 
-            marker_1d86d56102a94633bdcdd233fa1dc1e3.bindPopup(popup_d48577f6fd4d4663b20e0ed4f8d7d039);
+            marker_b3b1938d163648fd8084c1ae38ba96b1.bindPopup(popup_40b809a7645d48658eb0a102368f2af7);
 
             
         
     
 
-            var marker_d8a2cab993e14d98aa7bf077fe97dcf3 = L.marker(
+            var marker_61aaea6b3ea845b3a22b31fd0aefaf0a = L.marker(
                 [40.709899960000484,-73.94365993499963],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_892071922dde4699b3ed8b55b6aab801 = L.popup({maxWidth: '300'});
+            var popup_9e4c959d95d141398ca25bc6230598a5 = L.popup({maxWidth: '300'});
 
             
-                var html_896d8226180a4e36b72e196dec3ff18e = $('<div id="html_896d8226180a4e36b72e196dec3ff18e" style="width: 100.0%; height: 100.0%;">Brooklyn Latin School, The</div>')[0];
-                popup_892071922dde4699b3ed8b55b6aab801.setContent(html_896d8226180a4e36b72e196dec3ff18e);
+                var html_7eab3b700d1944fa8d200466469d5228 = $('<div id="html_7eab3b700d1944fa8d200466469d5228" style="width: 100.0%; height: 100.0%;">Brooklyn Latin School, The</div>')[0];
+                popup_9e4c959d95d141398ca25bc6230598a5.setContent(html_7eab3b700d1944fa8d200466469d5228);
             
 
-            marker_d8a2cab993e14d98aa7bf077fe97dcf3.bindPopup(popup_892071922dde4699b3ed8b55b6aab801);
+            marker_61aaea6b3ea845b3a22b31fd0aefaf0a.bindPopup(popup_9e4c959d95d141398ca25bc6230598a5);
 
             
         
     
 
-            var marker_9b7d9bbc582a482f9810071898e63db4 = L.marker(
+            var marker_112e42cee2b24d4ba3830e9b0521c149 = L.marker(
                 [40.821123112000464,-73.94884524399964],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_e8b430fe22154f1aa7445d31b46424b1 = L.popup({maxWidth: '300'});
+            var popup_799da51f73df42768ea70fc48949529b = L.popup({maxWidth: '300'});
 
             
-                var html_737b1215ae2d43b0b07fdec01b0e1c39 = $('<div id="html_737b1215ae2d43b0b07fdec01b0e1c39" style="width: 100.0%; height: 100.0%;">High School for Mathematics, Science and Engineering at City College</div>')[0];
-                popup_e8b430fe22154f1aa7445d31b46424b1.setContent(html_737b1215ae2d43b0b07fdec01b0e1c39);
+                var html_65b1dbca754644cbb293b1eab4fed9cc = $('<div id="html_65b1dbca754644cbb293b1eab4fed9cc" style="width: 100.0%; height: 100.0%;">High School for Mathematics, Science and Engineering at City College</div>')[0];
+                popup_799da51f73df42768ea70fc48949529b.setContent(html_65b1dbca754644cbb293b1eab4fed9cc);
             
 
-            marker_9b7d9bbc582a482f9810071898e63db4.bindPopup(popup_e8b430fe22154f1aa7445d31b46424b1);
+            marker_112e42cee2b24d4ba3830e9b0521c149.bindPopup(popup_799da51f73df42768ea70fc48949529b);
 
             
         
     
 
-            var marker_5e7673966c434c1d8d801727b99a0ebb = L.marker(
+            var marker_f6f5c38c99d54276a4a591be1ffcebfd = L.marker(
                 [40.8712553740005,-73.89751620399966],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_6e10ca9e9fc64500b68661b8d0771c9a = L.popup({maxWidth: '300'});
+            var popup_96632e7054984a32938aa70d88401d1d = L.popup({maxWidth: '300'});
 
             
-                var html_8e372fb0da774433b3b78f2969921296 = $('<div id="html_8e372fb0da774433b3b78f2969921296" style="width: 100.0%; height: 100.0%;">High School of American Studies at Lehman College</div>')[0];
-                popup_6e10ca9e9fc64500b68661b8d0771c9a.setContent(html_8e372fb0da774433b3b78f2969921296);
+                var html_9dc14b30935f4800be90ec78a35c936a = $('<div id="html_9dc14b30935f4800be90ec78a35c936a" style="width: 100.0%; height: 100.0%;">High School of American Studies at Lehman College</div>')[0];
+                popup_96632e7054984a32938aa70d88401d1d.setContent(html_9dc14b30935f4800be90ec78a35c936a);
             
 
-            marker_5e7673966c434c1d8d801727b99a0ebb.bindPopup(popup_6e10ca9e9fc64500b68661b8d0771c9a);
+            marker_f6f5c38c99d54276a4a591be1ffcebfd.bindPopup(popup_96632e7054984a32938aa70d88401d1d);
 
             
         
     
 
-            var marker_773749b04e184c0184a3904fb963f557 = L.marker(
+            var marker_156069b158984d3595567a9315fc3e9a = L.marker(
                 [40.71774641500048,-74.01404904299966],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_dba1ff716c2849eab5602be3fe9eff70 = L.popup({maxWidth: '300'});
+            var popup_7da1c7522467424f8089b5ce829f808a = L.popup({maxWidth: '300'});
 
             
-                var html_3e3a40f369a64486b95f410090c05b42 = $('<div id="html_3e3a40f369a64486b95f410090c05b42" style="width: 100.0%; height: 100.0%;">Stuyvesant High School</div>')[0];
-                popup_dba1ff716c2849eab5602be3fe9eff70.setContent(html_3e3a40f369a64486b95f410090c05b42);
+                var html_4d005b5758584459a6712de99447e446 = $('<div id="html_4d005b5758584459a6712de99447e446" style="width: 100.0%; height: 100.0%;">Stuyvesant High School</div>')[0];
+                popup_7da1c7522467424f8089b5ce829f808a.setContent(html_4d005b5758584459a6712de99447e446);
             
 
-            marker_773749b04e184c0184a3904fb963f557.bindPopup(popup_dba1ff716c2849eab5602be3fe9eff70);
+            marker_156069b158984d3595567a9315fc3e9a.bindPopup(popup_7da1c7522467424f8089b5ce829f808a);
 
             
         
     
 
-            var marker_97fcb4e2827049e5aaa119bdc5f02664 = L.marker(
+            var marker_0603578032b44797a78184524c364ed1 = L.marker(
                 [40.688107423000474,-73.97674507199963],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_a362cc4c7b6045319c930023ebfa79e2 = L.popup({maxWidth: '300'});
+            var popup_22b821c2b612427db85ef720bdfd76d2 = L.popup({maxWidth: '300'});
 
             
-                var html_6eed827d459546fba96fc123e8677ed7 = $('<div id="html_6eed827d459546fba96fc123e8677ed7" style="width: 100.0%; height: 100.0%;">Brooklyn Technical High School</div>')[0];
-                popup_a362cc4c7b6045319c930023ebfa79e2.setContent(html_6eed827d459546fba96fc123e8677ed7);
+                var html_e8f73c1b96eb454b94570ea1bc0a7e82 = $('<div id="html_e8f73c1b96eb454b94570ea1bc0a7e82" style="width: 100.0%; height: 100.0%;">Brooklyn Technical High School</div>')[0];
+                popup_22b821c2b612427db85ef720bdfd76d2.setContent(html_e8f73c1b96eb454b94570ea1bc0a7e82);
             
 
-            marker_97fcb4e2827049e5aaa119bdc5f02664.bindPopup(popup_a362cc4c7b6045319c930023ebfa79e2);
+            marker_0603578032b44797a78184524c364ed1.bindPopup(popup_22b821c2b612427db85ef720bdfd76d2);
 
             
         
     
 
-            var marker_985be916c47b4f40aa2dd6bcb24da6e5 = L.marker(
+            var marker_3a4453dbf2ac44ff85839eedcf7661ac = L.marker(
                 [40.7009987670005,-73.79815352399964],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_e7a9bfa709614d8baca5e5571f262747);
+                .addTo(map_8cd2712d8fb8471cb3b691854a385d61);
             
     
-            var popup_860c71fecc03454d9af0c567edfc88bd = L.popup({maxWidth: '300'});
+            var popup_6feffdaf7be0424b9b7788c95306fbb3 = L.popup({maxWidth: '300'});
 
             
-                var html_bc4744437e4442f09405ceb0c402993d = $('<div id="html_bc4744437e4442f09405ceb0c402993d" style="width: 100.0%; height: 100.0%;">Queens High School for the Sciences at York College</div>')[0];
-                popup_860c71fecc03454d9af0c567edfc88bd.setContent(html_bc4744437e4442f09405ceb0c402993d);
+                var html_094a6e57a0f348c2a5701050ddf66082 = $('<div id="html_094a6e57a0f348c2a5701050ddf66082" style="width: 100.0%; height: 100.0%;">Queens High School for the Sciences at York College</div>')[0];
+                popup_6feffdaf7be0424b9b7788c95306fbb3.setContent(html_094a6e57a0f348c2a5701050ddf66082);
             
 
-            marker_985be916c47b4f40aa2dd6bcb24da6e5.bindPopup(popup_860c71fecc03454d9af0c567edfc88bd);
+            marker_3a4453dbf2ac44ff85839eedcf7661ac.bindPopup(popup_6feffdaf7be0424b9b7788c95306fbb3);
 
             
         
     
                 
 
-                map_e7a9bfa709614d8baca5e5571f262747.fitBounds(
-                    [[40.567913003000456, -74.14529499999999], [40.887701, -73.746572]],
+                map_8cd2712d8fb8471cb3b691854a385d61.fitBounds(
+                    [[40.567913003000456, -74.11536224299965], [40.87705636800047, -73.79815352399964]],
                     {}
                     );
             
