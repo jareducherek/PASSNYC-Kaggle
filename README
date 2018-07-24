@@ -1,0 +1,8 @@
+This is a repo used to construct my kernel for the PASSNYC Kagggle competition:
+
+https://www.kaggle.com/passnyc/data-science-for-good
+
+The iPython Notebook contains the finalized kernel, while the other directories contains various
+datasets used in the competition.
+
+
